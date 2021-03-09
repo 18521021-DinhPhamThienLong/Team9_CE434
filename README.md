@@ -1,2 +1,3 @@
 # Team9_CE434
-*Dinh Pham Thien Long - Nguyen Thi Ngoc Diem*
+*Dinh Pham Thien Long - 18521021*
+*Nguyen Thi Ngoc Diem - 1852597*
