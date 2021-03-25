@@ -19,9 +19,9 @@ cv.imshow('HSV', hsv)
 #     f.write(str(hsv))
 
 convert_shape_bin = np.vectorize(np.binary_repr)
-shape_bin = convert_shape_bin(np.array(hsv), width=13)
+shape_bin = convert_shape_bin(np.array(hsv), width=8)
 
-np.set_printoptions(threshold=np.inf)
+np.set_printoptions(threshold = np.inf)
 with open('HSV.txt', 'w') as f:
      f.write(str(shape_bin))
 
