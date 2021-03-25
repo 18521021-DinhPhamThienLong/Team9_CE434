@@ -1,0 +1,8 @@
+/home/thienlong/CE434/Assignment/Week3/rgbtohsv.v {1 {vlog -work work -stats=none /home/thienlong/CE434/Assignment/Week3/rgbtohsv.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module rgbtohsv
+
+Top level modules:
+	rgbtohsv
+
+} {} {}}

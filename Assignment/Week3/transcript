@@ -1,0 +1,11 @@
+# vsim -c -do "run -all" rgbtohsv_tb 
+# Start time: 20:11:00 on Mar 25,2021
+# Loading work.rgbtohsv_tb
+# Loading work.rgbtohsv
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /rgbtohsv_tb File: /home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v Line: 23
+# run -all
+# ** Note: $finish    : /home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v(33)
+#    Time: 1004940 ns  Iteration: 0  Instance: /rgbtohsv_tb
+# End time: 20:11:01 on Mar 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

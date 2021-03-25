@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/thienlong/ModelSim Project/rgbtohsv (ver2)
+vrgbtohsv
+Z0 !s110 1616677860
+!i10b 1
+!s100 =ICNOih^fP0Z[@L3H3UPa1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:aKm8d5z<KFAiYgfI_ZKB0
+Z2 d/home/thienlong/CE434/Assignment/Week3
+w1616669284
+8/home/thienlong/CE434/Assignment/Week3/rgbtohsv.v
+F/home/thienlong/CE434/Assignment/Week3/rgbtohsv.v
+!i122 49
+L0 1 62
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z5 !s108 1616677860.000000
+Z6 !s107 /home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v|/home/thienlong/CE434/Assignment/Week3/rgbtohsv.v|
+Z7 !s90 /home/thienlong/CE434/Assignment/Week3/rgbtohsv.v|/home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v|
+!i113 1
+Z8 tCvgOpt 0
+vrgbtohsv_tb
+R0
+!i10b 1
+!s100 KcGgaJ9f@lY2Df18RS?M<3
+R1
+I@PeE:<C]Y==mgJN@@d<[n0
+R2
+w1616674010
+Z9 8/home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v
+Z10 F/home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v
+!i122 49
+Z11 L0 2 35
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtesbench
+!s110 1616661842
+!i10b 1
+!s100 X2z@AP^:cD>?X<8K6PfT23
+R1
+IBz9;]cT8hc^NMLncP29jR0
+R2
+w1616661749
+R9
+R10
+!i122 17
+R11
+R3
+R4
+r1
+!s85 0
+31
+!s108 1616661842.000000
+R6
+R7
+!i113 1
+R8
+vtestbench
+!s110 1616663244
+!i10b 1
+!s100 Ni0LazNRD<Fn^QI4VTHlH2
+R1
+I1OJfH42BJ1A>:3Y`]Dd[K3
+R2
+w1616663232
+R9
+R10
+!i122 33
+R11
+R3
+R4
+r1
+!s85 0
+31
+!s108 1616663244.000000
+R6
+R7
+!i113 1
+R8
