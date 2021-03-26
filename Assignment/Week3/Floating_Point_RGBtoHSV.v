@@ -1,7 +1,7 @@
 module Floating_Point_RGBtoHSV(output reg [31:0] h, s, v,
-                               	output reg data_val_out,
-    			       			input [31:0] r, g, b,
-   			       				input data_val_in, clk, rst);
+                            	output reg data_val_out,
+    			       		input [31:0] r, g, b,
+   			       		input data_val_in, clk, rst);
 	wire [31:0]G_B, B_R, R_G;
 	wire [31:0]G_B_60, B_R_60, R_G_60;
 	wire [31:0]G_B_div, B_R_div, R_G_div;
