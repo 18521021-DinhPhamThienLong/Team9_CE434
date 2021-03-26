@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/thienlong/CE434/Assignment/Week3/Floating_Point_Add.v,1616797387,verilog,,/home/thienlong/CE434/Assignment/Week3/Floating_Point_Div.v,,Floating_Point_Add,,,,,,,,
+/home/thienlong/CE434/Assignment/Week3/Floating_Point_Div.v,1616780756,verilog,,/home/thienlong/CE434/Assignment/Week3/Floating_Point_Mul.v,,Floating_Point_Div,,,,,,,,
+/home/thienlong/CE434/Assignment/Week3/Floating_Point_Mul.v,1616780807,verilog,,/home/thienlong/CE434/Assignment/Week3/Floating_Point_Sub.v,,Floating_Point_Mul;Normalize,,,,,,,,
+/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v,1616792727,verilog,,,,Floating_Point_RGBtoHSV,,,,,,,,
+/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV/Floating_Point_RGBtoHSV.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/thienlong/CE434/Assignment/Week3/Floating_Point_Sub.v,1616780607,verilog,,/home/thienlong/CE434/Assignment/Week3/MinMax.v,,Floating_Point_Sub,,,,,,,,
+/home/thienlong/CE434/Assignment/Week3/MinMax.v,1616776680,verilog,,/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v,,MinMax,,,,,,,,

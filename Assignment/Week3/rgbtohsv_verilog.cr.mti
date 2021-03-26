@@ -1,8 +1,44 @@
-/home/thienlong/CE434/Assignment/Week3/rgbtohsv.v {1 {vlog -work work -stats=none /home/thienlong/CE434/Assignment/Week3/rgbtohsv.v
+/home/thienlong/CE434/Assignment/Week3/Floating_Point_Mul.v {1 {vlog -work work -stats=none /home/thienlong/CE434/Assignment/Week3/Floating_Point_Mul.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling module rgbtohsv
+-- Compiling module Floating_Point_Mul
+-- Compiling module Normalize
 
 Top level modules:
-	rgbtohsv
+	Floating_Point_Mul
+
+} {} {}} /home/thienlong/CE434/Assignment/Week3/Floating_Point_Sub.v {1 {vlog -work work -stats=none /home/thienlong/CE434/Assignment/Week3/Floating_Point_Sub.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module Floating_Point_Sub
+
+Top level modules:
+	Floating_Point_Sub
+
+} {} {}} /home/thienlong/CE434/Assignment/Week3/MinMax.v {1 {vlog -work work -stats=none /home/thienlong/CE434/Assignment/Week3/MinMax.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module MinMax
+
+Top level modules:
+	MinMax
+
+} {} {}} /home/thienlong/CE434/Assignment/Week3/Floating_Point_Div.v {1 {vlog -work work -stats=none /home/thienlong/CE434/Assignment/Week3/Floating_Point_Div.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module Floating_Point_Div
+
+Top level modules:
+	Floating_Point_Div
+
+} {} {}} /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v {1 {vlog -work work -stats=none /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module Floating_Point_RGBtoHSV
+
+Top level modules:
+	Floating_Point_RGBtoHSV
+
+} {} {}} /home/thienlong/CE434/Assignment/Week3/Floating_Point_Add.v {1 {vlog -work work -stats=none /home/thienlong/CE434/Assignment/Week3/Floating_Point_Add.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module Floating_Point_Add
+
+Top level modules:
+	Floating_Point_Add
 
 } {} {}}

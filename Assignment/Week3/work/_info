@@ -9,48 +9,238 @@ z2
 !i10f 100
 cModel Technology
 d/home/thienlong/ModelSim Project/rgbtohsv (ver2)
+vFloating_Point_Add
+Z0 !s110 1616771624
+!i10b 1
+!s100 5TJIH=GY4UdKVl3Pcf4aj3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IWjFHhAMO9]K==<jIa>@0C3
+Z2 d/home/thienlong/CE434/Assignment/Week3
+w1616747364
+8/home/thienlong/CE434/Assignment/Week3/Floating_Point_Add.v
+F/home/thienlong/CE434/Assignment/Week3/Floating_Point_Add.v
+!i122 204
+Z3 L0 1 67
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z6 !s108 1616771624.000000
+!s107 /home/thienlong/CE434/Assignment/Week3/Floating_Point_Add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/thienlong/CE434/Assignment/Week3/Floating_Point_Add.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@floating_@point_@add
+vFloating_Point_Div
+R0
+!i10b 1
+!s100 BSnKJ>EzTGcXC076`]GYc0
+R1
+IHBm]R2_am<CnJgf1PY_>W2
+R2
+w1616747576
+8/home/thienlong/CE434/Assignment/Week3/Floating_Point_Div.v
+F/home/thienlong/CE434/Assignment/Week3/Floating_Point_Div.v
+!i122 205
+L0 1 41
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/thienlong/CE434/Assignment/Week3/Floating_Point_Div.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/thienlong/CE434/Assignment/Week3/Floating_Point_Div.v|
+!i113 1
+R7
+R8
+n@floating_@point_@div
+vFloating_Point_Mul
+R0
+!i10b 1
+!s100 KX;eEa`azaMcZFPa97:<d2
+R1
+IUb26<I:GomQ6ZXWB2@J=o1
+R2
+Z9 w1616750317
+Z10 8/home/thienlong/CE434/Assignment/Week3/Floating_Point_Mul.v
+Z11 F/home/thienlong/CE434/Assignment/Week3/Floating_Point_Mul.v
+!i122 206
+L0 1 19
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 /home/thienlong/CE434/Assignment/Week3/Floating_Point_Mul.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|/home/thienlong/CE434/Assignment/Week3/Floating_Point_Mul.v|
+!i113 1
+R7
+R8
+n@floating_@point_@mul
+vFloating_Point_RGBtoHSV
+Z14 !s110 1616801532
+!i10b 1
+!s100 zXSaclWg4Tn]`Y4e0gLS^0
+R1
+I<h>oa6d2d3DUb6WcjEg`03
+R2
+w1616798792
+8/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v
+F/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v
+!i122 250
+L0 1 76
+R4
+R5
+r1
+!s85 0
+31
+Z15 !s108 1616801531.000000
+!s107 /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV_testbench.v|/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v|
+Z16 !s90 /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v|/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV_testbench.v|
+!i113 1
+R8
+n@floating_@point_@r@g@bto@h@s@v
+vFloating_Point_RGBtoHSV_testbench
+R14
+!i10b 1
+!s100 cb]o`G@^>CkY8T4oeaM@_1
+R1
+IdTS7:MD4@bPQATmLfXP^f3
+R2
+w1616801519
+8/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV_testbench.v
+F/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV_testbench.v
+!i122 250
+L0 2 47
+R4
+R5
+r1
+!s85 0
+31
+R15
+Z17 !s107 /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV_testbench.v|/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v|
+R16
+!i113 1
+R8
+n@floating_@point_@r@g@bto@h@s@v_testbench
+vFloating_Point_Sub
+R0
+!i10b 1
+!s100 P_NojV9;m7QQOd1OnSFQS0
+R1
+IbK^WF^mMXJ]KoYF@0GRR82
+R2
+w1616746587
+8/home/thienlong/CE434/Assignment/Week3/Floating_Point_Sub.v
+F/home/thienlong/CE434/Assignment/Week3/Floating_Point_Sub.v
+!i122 208
+R3
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/thienlong/CE434/Assignment/Week3/Floating_Point_Sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/thienlong/CE434/Assignment/Week3/Floating_Point_Sub.v|
+!i113 1
+R7
+R8
+n@floating_@point_@sub
+vMinMax
+R0
+!i10b 1
+!s100 8zhQdNCKK0T>o6UPX7NoR2
+R1
+I>K;M=S78ZQ6^S8JkX_9WU3
+R2
+w1616747018
+8/home/thienlong/CE434/Assignment/Week3/MinMax.v
+F/home/thienlong/CE434/Assignment/Week3/MinMax.v
+!i122 209
+L0 1 16
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/thienlong/CE434/Assignment/Week3/MinMax.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/thienlong/CE434/Assignment/Week3/MinMax.v|
+!i113 1
+R7
+R8
+n@min@max
+vNormalize
+R0
+!i10b 1
+!s100 PdlV0YaNc9l<BSS4ok3k03
+R1
+Il_>4ncGkfJJ47g6IL<03Z0
+R2
+R9
+R10
+R11
+!i122 206
+L0 21 21
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R7
+R8
+n@normalize
 vrgbtohsv
-Z0 !s110 1616677860
+Z18 !s110 1616677860
 !i10b 1
 !s100 =ICNOih^fP0Z[@L3H3UPa1
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R1
 I:aKm8d5z<KFAiYgfI_ZKB0
-Z2 d/home/thienlong/CE434/Assignment/Week3
+R2
 w1616669284
 8/home/thienlong/CE434/Assignment/Week3/rgbtohsv.v
 F/home/thienlong/CE434/Assignment/Week3/rgbtohsv.v
 !i122 49
 L0 1 62
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-Z4 OV;L;2020.3;71
+R4
+R5
 r1
 !s85 0
 31
-Z5 !s108 1616677860.000000
-Z6 !s107 /home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v|/home/thienlong/CE434/Assignment/Week3/rgbtohsv.v|
-Z7 !s90 /home/thienlong/CE434/Assignment/Week3/rgbtohsv.v|/home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v|
+Z19 !s108 1616677860.000000
+Z20 !s107 /home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v|/home/thienlong/CE434/Assignment/Week3/rgbtohsv.v|
+Z21 !s90 /home/thienlong/CE434/Assignment/Week3/rgbtohsv.v|/home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v|
 !i113 1
-Z8 tCvgOpt 0
+R8
 vrgbtohsv_tb
-R0
+R18
 !i10b 1
 !s100 KcGgaJ9f@lY2Df18RS?M<3
 R1
 I@PeE:<C]Y==mgJN@@d<[n0
 R2
 w1616674010
-Z9 8/home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v
-Z10 F/home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v
+Z22 8/home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v
+Z23 F/home/thienlong/CE434/Assignment/Week3/rgbtohsv_tb.v
 !i122 49
-Z11 L0 2 35
-R3
+Z24 L0 2 35
 R4
+R5
 r1
 !s85 0
 31
-R5
-R6
-R7
+R19
+R20
+R21
 !i113 1
 R8
 vtesbench
@@ -61,39 +251,39 @@ R1
 IBz9;]cT8hc^NMLncP29jR0
 R2
 w1616661749
-R9
-R10
+R22
+R23
 !i122 17
-R11
-R3
+R24
 R4
+R5
 r1
 !s85 0
 31
 !s108 1616661842.000000
-R6
-R7
+R20
+R21
 !i113 1
 R8
 vtestbench
-!s110 1616663244
+!s110 1616799074
 !i10b 1
-!s100 Ni0LazNRD<Fn^QI4VTHlH2
+!s100 YDaCcbGUW@HVX280Ba2Pg3
 R1
-I1OJfH42BJ1A>:3Y`]Dd[K3
+IA?c^[LF45Q>HcEY8i8z4f0
 R2
-w1616663232
-R9
-R10
-!i122 33
-R11
-R3
+w1616795590
+8/home/thienlong/CE434/Assignment/Week3/testbench.v
+F/home/thienlong/CE434/Assignment/Week3/testbench.v
+!i122 247
+L0 2 56
 R4
+R5
 r1
 !s85 0
 31
-!s108 1616663244.000000
-R6
-R7
+!s108 1616799074.000000
+!s107 /home/thienlong/CE434/Assignment/Week3/testbench.v|/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v|
+!s90 /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV.v|/home/thienlong/CE434/Assignment/Week3/testbench.v|
 !i113 1
 R8
