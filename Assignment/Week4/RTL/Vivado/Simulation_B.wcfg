@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Floating_Point_RGBtoHSV_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Floating_Point_RGBtoHSV_testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="999998000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="130"></NameColumnWidth>
+      <ValueColumnWidth column_width="226"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject type="logic" fp_name="/Floating_Point_RGBtoHSV_testbench/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Floating_Point_RGBtoHSV_testbench/data_val_in">
+      <obj_property name="ElementShortName">data_val_in</obj_property>
+      <obj_property name="ObjectShortName">data_val_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Floating_Point_RGBtoHSV_testbench/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Floating_Point_RGBtoHSV_testbench/R">
+      <obj_property name="ElementShortName">R[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Floating_Point_RGBtoHSV_testbench/G">
+      <obj_property name="ElementShortName">G[31:0]</obj_property>
+      <obj_property name="ObjectShortName">G[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Floating_Point_RGBtoHSV_testbench/B">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Floating_Point_RGBtoHSV_testbench/H">
+      <obj_property name="ElementShortName">H[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Floating_Point_RGBtoHSV_testbench/S">
+      <obj_property name="ElementShortName">S[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Floating_Point_RGBtoHSV_testbench/V">
+      <obj_property name="ElementShortName">V[31:0]</obj_property>
+      <obj_property name="ObjectShortName">V[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Floating_Point_RGBtoHSV_testbench/data_val_out">
+      <obj_property name="ElementShortName">data_val_out</obj_property>
+      <obj_property name="ObjectShortName">data_val_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Floating_Point_RGBtoHSV_testbench/f_id">
+      <obj_property name="ElementShortName">f_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Floating_Point_RGBtoHSV_testbench/f1_id">
+      <obj_property name="ElementShortName">f1_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f1_id[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,12 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Add.v,1617357907,verilog,,/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Div.v,,Floating_Point_Add,,,,,,,,
+/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Div.v,1617357628,verilog,,/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v,,Floating_Point_Div,,,,,,,,
+/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v,1617357247,verilog,,/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_RGBtoHSV.v,,Floating_Point_Mul;Normalize,,,,,,,,
+/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_RGBtoHSV.v,1617377736,verilog,,/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Sub.v,/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Add.v;/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Div.v;/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v;/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Sub.v;/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/MinMax.v,Floating_Point_RGBtoHSV,,,,,,,,
+/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_RGBtoHSV_testbench.v,1617358224,verilog,,,,Floating_Point_RGBtoHSV_testbench,,,,,,,,
+/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Sub.v,1617357251,verilog,,/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/MinMax.v,,Floating_Point_Sub,,,,,,,,
+/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/MinMax.v,1617357253,verilog,,/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_RGBtoHSV_testbench.v,,MinMax,,,,,,,,
+/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,

@@ -57,9 +57,9 @@ for i in range(0, height):
         a = f.readline()
         h_v[i][j] = round(FloatingPoint_to_float(a)/360*255)
         a = f.readline()  
-        s_v[i][j] = round(FloatingPoint_to_float(a)*255)
+        s_v[i][j] = round(FloatingPoint_to_float(a)*255/100)
         a = f.readline()
-        v_v[i][j] = round(FloatingPoint_to_float(a)*255) 
+        v_v[i][j] = round(FloatingPoint_to_float(a)*255/100) 
 f.close()
 h_v = np.array(h_v)
 s_v = np.array(s_v)
@@ -75,8 +75,8 @@ for i in range(0,height):
         (B, G, R) = img[i][j]
         h_t, s_t, v_t = rgb_to_hsv(R, G, B)
         h_t = (round(255*h_t/360))
-        s_t = (round(s_t*255))
-        v_t = (round(v_t*255))
+        s_t = (round(s_t*255/100))
+        v_t = (round(v_t*255/100))
         h[i][j] = h_t
         s[i][j] = s_t
         v[i][j] = v_t
@@ -92,10 +92,23 @@ for i in range(0, height):
     for j in range(0, width):
         e_py = abs(h[i][j] - h_f[i][j]) + abs(s[i][j] - s_f[i][j]) + abs(v[i][j] - v_f[i][j]) + e_py
         e_v = abs(h_v[i][j] - h_f[i][j]) + abs(s_v[i][j] - s_f[i][j]) + abs(v_v[i][j] - v_f[i][j]) + e_v
-e_v = float(e_v / (height*width*depth)/255)
-e_py = float(e_py / (height*width*depth)/255)
+e_v = float(e_v / (height*width*depth*255/100))
+e_py = float(e_py / (height*width*depth*255/100))
 
 print("Verilog Acurancy:\n",e_v)
 print("Python Acurancy:\n",e_py)
 
+h_o = h.astype(np.uint8)
+s_o = s.astype(np.uint8)
+v_o = v.astype(np.uint8)
+h_v_o = h_v.astype(np.uint8)
+s_v_o = s_v.astype(np.uint8)
+v_v_o = v_v.astype(np.uint8)
+cv.imshow("H_python", h_o)
+cv.imshow("S_python", s_o)
+cv.imshow("V_python", v_o)
+cv.imshow("H_verilog", h_v_o)
+cv.imshow("S_verilog", s_v_o)
+cv.imshow("V_verilog", v_v_o)
 
+cv.waitKey(0)

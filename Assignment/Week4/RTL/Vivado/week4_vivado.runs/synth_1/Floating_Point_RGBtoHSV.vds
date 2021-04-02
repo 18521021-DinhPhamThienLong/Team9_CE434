@@ -1,0 +1,776 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Apr  3 00:58:54 2021
+# Process ID: 45735
+# Current directory: /home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.runs/synth_1
+# Command line: vivado -log Floating_Point_RGBtoHSV.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Floating_Point_RGBtoHSV.tcl
+# Log file: /home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.runs/synth_1/Floating_Point_RGBtoHSV.vds
+# Journal file: /home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Floating_Point_RGBtoHSV.tcl -notrace
+Command: synth_design -top Floating_Point_RGBtoHSV -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 45766 
+WARNING: [Synth 8-2490] overwriting previous definition of module Floating_Point_Add [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Add.v:1]
+WARNING: [Synth 8-2490] overwriting previous definition of module Floating_Point_Div [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Div.v:1]
+WARNING: [Synth 8-2490] overwriting previous definition of module Floating_Point_Mul [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v:1]
+WARNING: [Synth 8-2490] overwriting previous definition of module Normalize [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v:21]
+WARNING: [Synth 8-2490] overwriting previous definition of module Floating_Point_Sub [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Sub.v:1]
+WARNING: [Synth 8-2490] overwriting previous definition of module MinMax [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/MinMax.v:1]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1746.840 ; gain = 156.656 ; free physical = 6841 ; free virtual = 11817
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Floating_Point_RGBtoHSV' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_RGBtoHSV.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MinMax' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/MinMax.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Floating_Point_Sub' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Sub.v:1]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Fraction_reg' and it is trimmed from '24' to '23' bits. [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Sub.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'Floating_Point_Sub' (1#1) [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Sub.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MinMax' (2#1) [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/MinMax.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Floating_Point_Mul' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Normalize' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Normalize' (3#1) [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Floating_Point_Mul' (4#1) [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Floating_Point_Div' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Div.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Floating_Point_Div' (5#1) [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Div.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Floating_Point_Add' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Add.v:1]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Fraction_reg' and it is trimmed from '24' to '23' bits. [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Add.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'Floating_Point_Add' (6#1) [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Add.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Floating_Point_RGBtoHSV' (7#1) [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_RGBtoHSV.v:7]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[22]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[21]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[20]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[19]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[18]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[17]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[16]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[15]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[14]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[13]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[12]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[11]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[10]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[9]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[8]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[7]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[6]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[5]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[4]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[3]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[2]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[1]
+WARNING: [Synth 8-3331] design Normalize has unconnected port Fraction_Temp[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1780.746 ; gain = 190.562 ; free physical = 6862 ; free virtual = 11835
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1798.559 ; gain = 208.375 ; free physical = 6860 ; free virtual = 11834
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1798.559 ; gain = 208.375 ; free physical = 6860 ; free virtual = 11834
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.srcs/constrs_1/new/pin_mapping.xdc]
+Finished Parsing XDC File [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.srcs/constrs_1/new/pin_mapping.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1980.246 ; gain = 0.000 ; free physical = 6731 ; free virtual = 11718
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1983.215 ; gain = 2.969 ; free physical = 6729 ; free virtual = 11715
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1983.215 ; gain = 393.031 ; free physical = 6768 ; free virtual = 11777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1983.215 ; gain = 393.031 ; free physical = 6769 ; free virtual = 11778
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1983.215 ; gain = 393.031 ; free physical = 6783 ; free virtual = 11786
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Sub.v:47]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v:16]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Div.v:28]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Add.v:47]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1983.215 ; gain = 393.031 ; free physical = 6803 ; free virtual = 11791
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------------+------------+----------+
+|      |RTL Partition                |Replication |Instances |
++------+-----------------------------+------------+----------+
+|1     |Floating_Point_Div           |           5|      8533|
+|2     |Floating_Point_RGBtoHSV__GC0 |           1|     21440|
++------+-----------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 10    
+	   2 Input     25 Bit       Adders := 10    
+	   2 Input      8 Bit       Adders := 40    
+	   3 Input      8 Bit       Adders := 30    
+	  24 Input      8 Bit       Adders := 10    
++---XORs : 
+	   2 Input      1 Bit         XORs := 40    
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 30    
+	   4 Input     32 Bit        Muxes := 6     
+	   2 Input     25 Bit        Muxes := 20    
+	   2 Input     24 Bit        Muxes := 270   
+	   2 Input     23 Bit        Muxes := 20    
+	   2 Input      8 Bit        Muxes := 30    
+	   2 Input      2 Bit        Muxes := 230   
+	   2 Input      1 Bit        Muxes := 24    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Floating_Point_RGBtoHSV 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module Floating_Point_Div 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     23 Bit        Muxes := 1     
+Module Floating_Point_Sub__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	  24 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 27    
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   2 Input      1 Bit        Muxes := 2     
+Module Floating_Point_Sub__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	  24 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 27    
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   2 Input      1 Bit        Muxes := 2     
+Module Floating_Point_Sub__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	  24 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 27    
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   2 Input      1 Bit        Muxes := 2     
+Module MinMax 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+Module Floating_Point_Sub__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	  24 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 27    
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   2 Input      1 Bit        Muxes := 2     
+Module Floating_Point_Sub__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	  24 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 27    
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   2 Input      1 Bit        Muxes := 2     
+Module Floating_Point_Sub__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	  24 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 27    
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   2 Input      1 Bit        Muxes := 2     
+Module Floating_Point_Sub 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	  24 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 27    
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   2 Input      1 Bit        Muxes := 2     
+Module Normalize__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+Module Floating_Point_Mul__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Normalize__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+Module Floating_Point_Mul__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Normalize__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+Module Floating_Point_Mul__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Floating_Point_Add__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	  24 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 27    
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   2 Input      1 Bit        Muxes := 2     
+Module Floating_Point_Add__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	  24 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 27    
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   2 Input      1 Bit        Muxes := 2     
+Module Floating_Point_Add 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	  24 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 27    
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 23    
+	   2 Input      1 Bit        Muxes := 2     
+Module Normalize__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+Module Floating_Point_Mul__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Normalize 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+Module Floating_Point_Mul 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP Fraction_Temp, operation Mode is: A*B.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: Generating DSP Fraction_Temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: Generating DSP Fraction_Temp, operation Mode is: A*B.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: Generating DSP Fraction_Temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: Generating DSP Fraction_Temp, operation Mode is: A*B.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: Generating DSP Fraction_Temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: Generating DSP Fraction_Temp, operation Mode is: A*B.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: Generating DSP Fraction_Temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: Generating DSP Fraction_Temp, operation Mode is: A*B.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: Generating DSP Fraction_Temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+DSP Report: operator Fraction_Temp is absorbed into DSP Fraction_Temp.
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_194' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_193' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_192' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_191' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_190' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_189' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_188' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_187' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_186' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_185' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_184' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_183' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_182' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_181' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_180' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_179' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_178' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_177' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_176' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_175' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_174' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_173' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_172' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_171' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_170' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_169' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_168' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_167' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_166' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_165' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/v_regi_164' (FDS) to 'i_0/v_regi_163'
+INFO: [Synth 8-3886] merging instance 'i_0/i_163' (FDS) to 'i_0/i_130'
+INFO: [Synth 8-3886] merging instance 'i_0/i_130' (FDS) to 'i_0/i_129'
+INFO: [Synth 8-3886] merging instance 'i_0/i_129' (FDS) to 'i_0/i_128'
+INFO: [Synth 8-3886] merging instance 'i_0/i_128' (FDS) to 'i_0/i_127'
+INFO: [Synth 8-3886] merging instance 'i_0/i_127' (FDS) to 'i_0/i_126'
+INFO: [Synth 8-3886] merging instance 'i_0/i_126' (FDS) to 'i_0/i_125'
+INFO: [Synth 8-3886] merging instance 'i_0/i_125' (FDS) to 'i_0/i_124'
+INFO: [Synth 8-3886] merging instance 'i_0/i_124' (FDS) to 'i_0/i_123'
+INFO: [Synth 8-3886] merging instance 'i_0/i_123' (FDS) to 'i_0/i_122'
+INFO: [Synth 8-3886] merging instance 'i_0/i_122' (FDS) to 'i_0/i_121'
+INFO: [Synth 8-3886] merging instance 'i_0/i_121' (FDS) to 'i_0/i_120'
+INFO: [Synth 8-3886] merging instance 'i_0/i_120' (FDS) to 'i_0/i_119'
+INFO: [Synth 8-3886] merging instance 'i_0/i_119' (FDS) to 'i_0/i_118'
+INFO: [Synth 8-3886] merging instance 'i_0/i_118' (FDS) to 'i_0/i_117'
+INFO: [Synth 8-3886] merging instance 'i_0/i_117' (FDS) to 'i_0/i_116'
+INFO: [Synth 8-3886] merging instance 'i_0/i_116' (FDS) to 'i_0/i_115'
+INFO: [Synth 8-3886] merging instance 'i_0/i_115' (FDS) to 'i_0/i_114'
+INFO: [Synth 8-3886] merging instance 'i_0/i_114' (FDS) to 'i_0/i_113'
+INFO: [Synth 8-3886] merging instance 'i_0/i_113' (FDS) to 'i_0/i_112'
+INFO: [Synth 8-3886] merging instance 'i_0/i_112' (FDS) to 'i_0/i_111'
+INFO: [Synth 8-3886] merging instance 'i_0/i_111' (FDS) to 'i_0/i_110'
+INFO: [Synth 8-3886] merging instance 'i_0/i_110' (FDS) to 'i_0/i_109'
+INFO: [Synth 8-3886] merging instance 'i_0/i_109' (FDS) to 'i_0/i_108'
+INFO: [Synth 8-3886] merging instance 'i_0/i_108' (FDS) to 'i_0/i_107'
+INFO: [Synth 8-3886] merging instance 'i_0/i_107' (FDS) to 'i_0/i_106'
+INFO: [Synth 8-3886] merging instance 'i_0/i_106' (FDS) to 'i_0/i_105'
+INFO: [Synth 8-3886] merging instance 'i_0/i_105' (FDS) to 'i_0/i_104'
+INFO: [Synth 8-3886] merging instance 'i_0/i_104' (FDS) to 'i_0/i_103'
+INFO: [Synth 8-3886] merging instance 'i_0/i_103' (FDS) to 'i_0/i_102'
+INFO: [Synth 8-3886] merging instance 'i_0/i_102' (FDS) to 'i_0/i_101'
+INFO: [Synth 8-3886] merging instance 'i_0/i_101' (FDS) to 'i_0/i_100'
+INFO: [Synth 8-3886] merging instance 'i_0/i_100' (FDS) to 'i_0/i_99'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_65' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_64' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_63' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_62' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_61' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_60' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_59' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_58' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_57' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_56' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_55' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_54' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_53' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_52' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_51' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_50' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_49' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_48' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_47' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_46' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_45' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_44' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_43' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_42' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_41' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_40' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_39' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_38' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_37' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_36' (FDSE) to 'i_0/h_regi_34'
+INFO: [Synth 8-3886] merging instance 'i_0/h_regi_35' (FDSE) to 'i_0/h_regi_34'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 1990.199 ; gain = 400.016 ; free physical = 6754 ; free virtual = 11739
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Floating_Point_Mul | A*B            | 25     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Floating_Point_Mul | (PCIN>>17)+A*B | 25     | 8      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Floating_Point_Mul | A*B            | 25     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Floating_Point_Mul | (PCIN>>17)+A*B | 25     | 8      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Floating_Point_Mul | A*B            | 25     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Floating_Point_Mul | (PCIN>>17)+A*B | 25     | 8      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Floating_Point_Mul | A*B            | 25     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Floating_Point_Mul | (PCIN>>17)+A*B | 25     | 8      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Floating_Point_Mul | A*B            | 25     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Floating_Point_Mul | (PCIN>>17)+A*B | 25     | 8      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------------+------------+----------+
+|      |RTL Partition                |Replication |Instances |
++------+-----------------------------+------------+----------+
+|1     |Floating_Point_Div           |           4|      3861|
+|2     |Floating_Point_RGBtoHSV__GC0 |           1|     13835|
+|3     |Floating_Point_Div__1        |           1|      1351|
++------+-----------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1990.199 ; gain = 400.016 ; free physical = 6624 ; free virtual = 11610
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1990.199 ; gain = 400.016 ; free physical = 6625 ; free virtual = 11611
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------------+------------+----------+
+|      |RTL Partition                |Replication |Instances |
++------+-----------------------------+------------+----------+
+|1     |Floating_Point_Div           |           4|      3861|
+|2     |Floating_Point_RGBtoHSV__GC0 |           1|     13835|
+|3     |Floating_Point_Div__1        |           1|      1351|
++------+-----------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 2048.207 ; gain = 458.023 ; free physical = 6614 ; free virtual = 11600
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 2048.207 ; gain = 458.023 ; free physical = 6614 ; free virtual = 11600
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 2048.207 ; gain = 458.023 ; free physical = 6614 ; free virtual = 11600
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 2048.207 ; gain = 458.023 ; free physical = 6614 ; free virtual = 11600
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 2048.207 ; gain = 458.023 ; free physical = 6614 ; free virtual = 11600
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 2048.207 ; gain = 458.023 ; free physical = 6614 ; free virtual = 11600
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 2048.207 ; gain = 458.023 ; free physical = 6614 ; free virtual = 11600
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |  2613|
+|3     |DSP48E1 |    10|
+|4     |LUT1    |   439|
+|5     |LUT2    |  4927|
+|6     |LUT3    |  4901|
+|7     |LUT4    |   914|
+|8     |LUT5    |  1845|
+|9     |LUT6    |  1812|
+|10    |MUXF7   |     7|
+|11    |FDRE    |    99|
+|12    |IBUF    |    99|
+|13    |OBUF    |     1|
+|14    |OBUFT   |    96|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------+---------------------+------+
+|      |Instance |Module               |Cells |
++------+---------+---------------------+------+
+|1     |top      |                     | 17764|
+|2     |  m1     |Floating_Point_Mul   |  1485|
+|3     |    N    |Normalize_7          |   951|
+|4     |  m2     |Floating_Point_Mul_0 |  1468|
+|5     |    N    |Normalize_6          |   934|
+|6     |  m3     |Floating_Point_Mul_1 |  1555|
+|7     |    N    |Normalize_5          |  1021|
+|8     |  m4     |Floating_Point_Mul_2 |   598|
+|9     |    N    |Normalize_4          |   524|
+|10    |  m5     |Floating_Point_Mul_3 |  1160|
+|11    |    N    |Normalize            |   375|
++------+---------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 2048.207 ; gain = 458.023 ; free physical = 6614 ; free virtual = 11599
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 2048.207 ; gain = 273.367 ; free physical = 6669 ; free virtual = 11654
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 2048.215 ; gain = 458.023 ; free physical = 6669 ; free virtual = 11654
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2630 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2080.223 ; gain = 0.000 ; free physical = 6611 ; free virtual = 11597
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+123 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 2080.223 ; gain = 708.953 ; free physical = 6716 ; free virtual = 11702
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2080.223 ; gain = 0.000 ; free physical = 6716 ; free virtual = 11702
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.runs/synth_1/Floating_Point_RGBtoHSV.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Floating_Point_RGBtoHSV_utilization_synth.rpt -pb Floating_Point_RGBtoHSV_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  3 01:00:02 2021...

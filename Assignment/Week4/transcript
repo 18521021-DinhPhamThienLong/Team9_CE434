@@ -1,5 +1,5 @@
 # vsim -c -do "run -all" Floating_Point_RGBtoHSV_testbench 
-# Start time: 23:15:50 on Apr 02,2021
+# Start time: 23:02:18 on Apr 02,2021
 # Loading work.Floating_Point_RGBtoHSV_testbench
 # Loading work.Floating_Point_RGBtoHSV
 # Loading work.MinMax
@@ -13,5 +13,5 @@
 # run -all
 # ** Note: $finish    : /home/thienlong/CE434/Assignment/Week4/RTL/Floating_Point_RGBtoHSV_testbench.v(27)
 #    Time: 1004930 ns  Iteration: 0  Instance: /Floating_Point_RGBtoHSV_testbench
-# End time: 23:15:53 on Apr 02,2021, Elapsed time: 0:00:03
+# End time: 23:02:21 on Apr 02,2021, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 1
