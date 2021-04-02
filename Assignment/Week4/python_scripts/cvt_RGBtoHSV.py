@@ -97,18 +97,3 @@ e_py = float(e_py / (height*width*depth*255/100))
 
 print("Verilog Acurancy:\n",e_v)
 print("Python Acurancy:\n",e_py)
-
-h_o = h.astype(np.uint8)
-s_o = s.astype(np.uint8)
-v_o = v.astype(np.uint8)
-h_v_o = h_v.astype(np.uint8)
-s_v_o = s_v.astype(np.uint8)
-v_v_o = v_v.astype(np.uint8)
-cv.imshow("H_python", h_o)
-cv.imshow("S_python", s_o)
-cv.imshow("V_python", v_o)
-cv.imshow("H_verilog", h_v_o)
-cv.imshow("S_verilog", s_v_o)
-cv.imshow("V_verilog", v_v_o)
-
-cv.waitKey(0)
