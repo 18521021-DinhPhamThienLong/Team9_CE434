@@ -26,37 +26,25 @@ def FloatingPoint_to_float(fp):
     return fr * pow(2,ex)
 
 
-def rgb_to_hsv(r, g, b): 
-  
-    # R, G, B values are divided by 255 
-    # to change the range from 0..255 to 0..1: 
-    r, g, b = r / 255.0, g / 255.0, b / 255.0
-  
-    # h, s, v = hue, saturation, value 
-    cmax = max(r, g, b)    # maximum of r, g, b 
-    cmin = min(r, g, b)    # minimum of r, g, b 
-    diff = cmax-cmin       # diff of cmax and cmin. 
-
-    if cmax == cmin:  
+def rgb_to_hsv(r, g, b):
+    r, g, b = r/255.0, g/255.0, b/255.0
+    mx = max(r, g, b)
+    mn = min(r, g, b)
+    df = mx-mn
+    if mx == mn:
         h = 0
-      
-    elif cmax == r:  
-        h = (60 * ((g - b) / diff) + 360) % 360
-
-    elif cmax == g: 
-        h = (60 * ((b - r) / diff) + 120) % 360
-
-    elif cmax == b:  
-        h = (60 * ((r - g) / diff) + 240) % 360
-
-    if cmax == 0: 
+    elif mx == r:
+        h = (60 * ((g-b)/df) + 360) % 360
+    elif mx == g:
+        h = (60 * ((b-r)/df) + 120) % 360
+    elif mx == b:
+        h = (60 * ((r-g)/df) + 240) % 360
+    if mx == 0:
         s = 0
-    else: 
-        s = (diff / cmax) * 100
-
-    v = cmax * 100
-    return h, s, v 
-
+    else:
+        s = (df/mx)*100
+    v = mx*100
+    return h, s, v
 
 img = cv.imread('/home/thienlong/CE434/Assignment/Week3/flowers.jpeg')
 (height, width,depth) = img.shape
@@ -97,7 +85,6 @@ s = np.array(s)
 v = np.array(v)
 # hsv = cv.merge((h, s, v))
 hsv_f = cv.cvtColor(img, cv.COLOR_BGR2HSV)
-
 h_f, s_f, v_f = cv.split(hsv_f)
 e_py = 0
 e_v = 0
@@ -105,9 +92,10 @@ for i in range(0, height):
     for j in range(0, width):
         e_py = abs(h[i][j] - h_f[i][j]) + abs(s[i][j] - s_f[i][j]) + abs(v[i][j] - v_f[i][j]) + e_py
         e_v = abs(h_v[i][j] - h_f[i][j]) + abs(s_v[i][j] - s_f[i][j]) + abs(v_v[i][j] - v_f[i][j]) + e_v
-e_v = float(e_v / (height*width*depth*255))
-e_py = float(e_py / (height*width*depth*255))
+e_v = float(e_v / (height*width*depth)/255)
+e_py = float(e_py / (height*width*depth)/255)
 
-print("Verilog",e_v)
-print("Python",e_py)
+print("Verilog Acurancy:\n",e_v)
+print("Python Acurancy:\n",e_py)
+
 

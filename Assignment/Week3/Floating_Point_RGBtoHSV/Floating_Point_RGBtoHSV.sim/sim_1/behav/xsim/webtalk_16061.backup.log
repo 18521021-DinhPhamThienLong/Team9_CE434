@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Mar 26 22:30:50 2021
+# Process ID: 16061
+# Current directory: /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV/Floating_Point_RGBtoHSV.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV/Floating_Point_RGBtoHSV.sim/sim_1/behav/xsim/xsim.dir/Floating_Point_RGBtoHSV_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV/Floating_Point_RGBtoHSV.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV/Floating_Point_RGBtoHSV.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV/Floating_Point_RGBtoHSV.sim/sim_1/behav/xsim/xsim.dir/Floating_Point_RGBtoHSV_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV/Floating_Point_RGBtoHSV.sim/sim_1/behav/xsim/xsim.dir/Floating_Point_RGBtoHSV_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Mar 26 22:30:54 2021. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 26 22:30:54 2021...

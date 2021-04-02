@@ -67,10 +67,10 @@ module Floating_Point_RGBtoHSV(output reg [31:0] h, s, v,
 	Floating_Point_Add a1(B_R_120, B_R_div, 32'b01000010111100000000000000000000);
 	Floating_Point_Add a2(R_G_240, R_G_div, 32'b01000011011100000000000000000000);
 	//S
-	Floating_Point_Div d4(S_div, diff, cmax);
-	Floating_Point_Mul m4(S_out, S_div, 32'b01000010110010000000000000000000);
+	Floating_Point_Div d4(S_out, diff, cmax);
+	//Floating_Point_Mul m4(S_out, S_div, 32'b01000010110010000000000000000000);
 	//V
-	Floating_Point_Div d5(V_div, cmax, 32'b01000011011111110000000000000000);
-	Floating_Point_Mul m5(V_out, V_div, 32'b01000010110010000000000000000000);
+	Floating_Point_Div d5(V_out, cmax, 32'b01000011011111110000000000000000);
+	//Floating_Point_Mul m5(V_out, V_div, 32'b01000010110010000000000000000000);
 	
 endmodule	

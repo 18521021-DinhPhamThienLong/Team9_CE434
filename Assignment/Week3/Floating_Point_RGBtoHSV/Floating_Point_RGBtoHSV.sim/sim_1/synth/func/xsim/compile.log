@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV/Floating_Point_RGBtoHSV.sim/sim_1/synth/func/xsim/Floating_Point_RGBtoHSV_testbench_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Floating_Point_Div
+INFO: [VRFC 10-311] analyzing module Floating_Point_Div_0
+INFO: [VRFC 10-311] analyzing module Floating_Point_Div_1
+INFO: [VRFC 10-311] analyzing module Floating_Point_Div_2
+INFO: [VRFC 10-311] analyzing module Floating_Point_Mul
+INFO: [VRFC 10-311] analyzing module Floating_Point_Mul_3
+INFO: [VRFC 10-311] analyzing module Floating_Point_RGBtoHSV
+INFO: [VRFC 10-311] analyzing module Normalize
+INFO: [VRFC 10-311] analyzing module Normalize_4
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thienlong/CE434/Assignment/Week3/Floating_Point_RGBtoHSV_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Floating_Point_RGBtoHSV_testbench

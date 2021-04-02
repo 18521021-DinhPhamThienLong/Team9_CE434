@@ -1,0 +1,17 @@
+# vsim -c -do "run -all" Floating_Point_RGBtoHSV_testbench 
+# Start time: 17:11:01 on Apr 02,2021
+# Loading work.Floating_Point_RGBtoHSV_testbench
+# Loading work.Floating_Point_RGBtoHSV
+# Loading work.MinMax
+# Loading work.Floating_Point_Sub
+# Loading work.Floating_Point_Mul
+# Loading work.Normalize
+# Loading work.Floating_Point_Div
+# Loading work.Floating_Point_Add
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /Floating_Point_RGBtoHSV_testbench File: /home/thienlong/CE434/Assignment/Week4/RTL/Floating_Point_RGBtoHSV_testbench.v Line: 16
+# run -all
+# ** Note: $finish    : /home/thienlong/CE434/Assignment/Week4/RTL/Floating_Point_RGBtoHSV_testbench.v(27)
+#    Time: 1004930 ns  Iteration: 0  Instance: /Floating_Point_RGBtoHSV_testbench
+# End time: 17:11:03 on Apr 02,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
