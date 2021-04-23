@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Apr  3 00:58:54 2021
+# Process ID: 45735
+# Current directory: /home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.runs/synth_1
+# Command line: vivado -log Floating_Point_RGBtoHSV.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Floating_Point_RGBtoHSV.tcl
+# Log file: /home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.runs/synth_1/Floating_Point_RGBtoHSV.vds
+# Journal file: /home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Floating_Point_RGBtoHSV.tcl -notrace

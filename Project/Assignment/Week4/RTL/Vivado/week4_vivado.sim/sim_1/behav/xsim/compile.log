@@ -1,0 +1,29 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Floating_Point_Add
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Floating_Point_Div
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Floating_Point_Mul
+INFO: [VRFC 10-311] analyzing module Normalize
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_RGBtoHSV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Floating_Point_Add
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Floating_Point_Add' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Add.v:1]
+INFO: [VRFC 10-311] analyzing module Floating_Point_Div
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Floating_Point_Div' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Div.v:1]
+INFO: [VRFC 10-311] analyzing module Floating_Point_Mul
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Floating_Point_Mul' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v:1]
+INFO: [VRFC 10-311] analyzing module Normalize
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Normalize' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Mul.v:21]
+INFO: [VRFC 10-311] analyzing module Floating_Point_Sub
+INFO: [VRFC 10-311] analyzing module MinMax
+INFO: [VRFC 10-311] analyzing module Floating_Point_RGBtoHSV
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Sub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Floating_Point_Sub
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Floating_Point_Sub' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_Sub.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/MinMax.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MinMax
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MinMax' [/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/MinMax.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/Floating_Point_RGBtoHSV_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Floating_Point_RGBtoHSV_testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thienlong/CE434/Assignment/Week4/RTL/Vivado/week4_vivado.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

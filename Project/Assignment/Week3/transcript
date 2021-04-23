@@ -1,0 +1,48 @@
+# Loading project rgbtohsv_verilog
+# reading /home/thienlong/intelFPGA_pro/20.4/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project rgbtohsv
+# Compile of Floating_Point_Add.v was successful.
+# Compile of Floating_Point_Div.v was successful.
+# Compile of Floating_Point_Mul.v was successful.
+# Compile of Floating_Point_RGBtoHSV.v was successful.
+# Compile of Floating_Point_RGBtoHSV_testbench.v was successful.
+# Compile of Floating_Point_Sub.v was successful.
+# Compile of MinMax.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.Floating_Point_RGBtoHSV_testbench
+# vsim work.Floating_Point_RGBtoHSV_testbench 
+# Start time: 16:24:48 on Apr 02,2021
+# Loading work.Floating_Point_RGBtoHSV_testbench
+# Loading work.Floating_Point_RGBtoHSV
+# Loading work.MinMax
+# Loading work.Floating_Point_Sub
+# Loading work.Floating_Point_Mul
+# Loading work.Normalize
+# Loading work.Floating_Point_Div
+# Loading work.Floating_Point_Add
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /Floating_Point_RGBtoHSV_testbench File: /home/thienlong/CE434/Assignment/Week4/RTL/Floating_Point_RGBtoHSV_testbench.v Line: 16
+add wave -position insertpoint sim:/Floating_Point_RGBtoHSV_testbench/*
+run -all
+# ** Note: $finish    : /home/thienlong/CE434/Assignment/Week4/RTL/Floating_Point_RGBtoHSV_testbench.v(27)
+#    Time: 1004930 ns  Iteration: 0  Instance: /Floating_Point_RGBtoHSV_testbench
+# 1
+# Break in Module Floating_Point_RGBtoHSV_testbench at /home/thienlong/CE434/Assignment/Week4/RTL/Floating_Point_RGBtoHSV_testbench.v line 27
+# Compile of Floating_Point_Add.v was successful.
+# Compile of Floating_Point_Div.v was successful.
+# Compile of Floating_Point_Mul.v was successful.
+# Compile of Floating_Point_RGBtoHSV.v was successful.
+# Compile of Floating_Point_RGBtoHSV_testbench.v was successful.
+# Compile of Floating_Point_Sub.v was successful.
+# Compile of MinMax.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of Floating_Point_Add.v was successful.
+# Compile of Floating_Point_Div.v was successful.
+# Compile of Floating_Point_Mul.v was successful.
+# Compile of Floating_Point_RGBtoHSV.v was successful.
+# Compile of Floating_Point_RGBtoHSV_testbench.v was successful.
+# Compile of Floating_Point_Sub.v was successful.
+# Compile of MinMax.v was successful.
+# 7 compiles, 0 failed with no errors.
+# End time: 16:36:37 on Apr 02,2021, Elapsed time: 0:11:49
+# Errors: 0, Warnings: 8

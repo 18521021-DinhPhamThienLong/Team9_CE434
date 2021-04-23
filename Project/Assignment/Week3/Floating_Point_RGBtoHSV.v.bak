@@ -1,0 +1,68 @@
+module Floating_Point_RGBtoHSV(output reg [31:0] h, s, v,
+                               	output reg data_val_out,
+    			       			input [31:0] r, g, b,
+   			       				input data_val_in, clk, rst);
+	wire R_G, G_B, B_R;
+	wire R_G_43, G_B_43, B_R_43;
+	wire R_G_div, G_B_div, B_R_div;
+	wire R_G_171, B_R_85;
+	wire diff, diff_255;
+	wire cmax, cmin;
+	wire S_out, V_out;
+
+	always @(posedge clk)
+	begin
+		if (rst)
+			begin
+				h = 32'b0;
+				s = 32'b0;
+				v = 32'b0;
+				data_val_out = 1'b0;
+			end
+		else if(data_val_in == 1'b1)
+			begin	
+				data_val_out <= 1'b1;	
+				if (r == cmax)
+					h = R_G_171;		
+				else if (g == cmax)
+					h = G_B_div;
+				else if (b == cmax)
+					h = B_R_85;
+
+				s = S_out;
+				v = V_out;
+			end
+		else 
+			begin	
+			data_val_out = 1'b0;
+			h = 32'dZ;
+			s = 32'dZ;
+			v = 32'dZ;
+			end
+	end
+	
+	MinMax mm(cmax, cmin, r, g, b);
+	//Sub
+	Floating_Point_Sub s1(R_G, r, g);
+	Floating_Point_Sub s2(G_B, g, b);
+	Floating_Point_Sub s3(B_R, b, r);
+	//Mul 43
+	Floating_Point_Mul m1(R_G_43, {1'b0, R_G[30:0]}, 32'b01000010001011000000000000000000);
+	Floating_Point_Mul m2(G_B_43, {1'b0, G_B[30:0]}, 32'b01000010001011000000000000000000);
+	Floating_Point_Mul m3(B_R_43, {1'b0, B_R[30:0]}, 32'b01000010001011000000000000000000);
+	//diff
+	Floating_Point_Sub s4(diff, cmax, cmin);
+	//Div
+	Floating_Point_Div d1(R_G_div, R_G_43, diff);
+	Floating_Point_Div d2(G_B_div, G_B_43, diff);
+	Floating_Point_Div d3(B_R_div, B_R_43, diff);
+	//Add
+	Floating_Point_Add a1(R_G_171, R_G_div, 32'b1000011001010110000000000000000);
+	Floating_Point_Add a2(B_R_85, B_R_43, 32'b01000010101010100000000000000000);
+	//Mul 255
+	Floating_Point_Mul m4(diff_255, diff, 32'b01000011011111110000000000000000);
+	//S
+	Floating_Point_Div d4(S_out, diff_255, cmax);
+	//V
+	Floating_Point_Div d5(V_out, cmax, 32'b01000011011111110000000000000000);
+endmodule	

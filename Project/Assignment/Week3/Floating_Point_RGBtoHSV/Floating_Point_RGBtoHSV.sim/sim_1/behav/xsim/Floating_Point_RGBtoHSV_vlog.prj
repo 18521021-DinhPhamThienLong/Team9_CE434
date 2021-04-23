@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Floating_Point_Add.v" \
+"../../../../../Floating_Point_Div.v" \
+"../../../../../Floating_Point_Mul.v" \
+"../../../../../Floating_Point_Sub.v" \
+"../../../../../MinMax.v" \
+"../../../../../Floating_Point_RGBtoHSV.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
