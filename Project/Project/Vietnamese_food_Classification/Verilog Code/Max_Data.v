@@ -9,4 +9,3 @@ module Max_Data(max_data, In1, In2, In3, In4);
 	Max_Value DUT(max_data, max1, max2);
 	
 endmodule
-// so chu ki : 3
