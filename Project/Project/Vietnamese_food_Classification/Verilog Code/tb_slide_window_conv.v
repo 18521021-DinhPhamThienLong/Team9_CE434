@@ -1,5 +1,5 @@
 module tb_slide_window_conv();
-  parameter In_d_W=32, In_Add_W=4, R_N=5, C_N=5, R_F=3, C_F=3, P=0, S=1, Timeperiod=10;
+  parameter In_d_W=32, In_Add_W=4, R_N=5, C_N=5, R_F=3, C_F=3, P=1, S=1, Timeperiod=10;
   reg clk,clk_en,rst,clr,en_wr,en_rd,wr,en_MAC,en_MAC_out;
   reg [(C_N*R_N*In_d_W)-1:0] N;
   reg [(C_F*R_F*In_d_W)-1:0] F;
@@ -61,6 +61,7 @@ module tb_slide_window_conv();
     #500 $stop;
   end
   
-  always #5 clk = !clk;
+  
+always #5 clk = !clk;
     
 endmodule
