@@ -16,7 +16,7 @@ module Max_Data #(parameter data_width = 32, R = 3, C = 3)(max_data, In);
 		// 32bit la 1 pixel nen i = i + data_width
 		for(i = 0; i <(data_width*R*C); i = i + data_width) begin
 			// do buoc nhay i = data_width nen reg_in[i/data_width]
-			assign reg_in[i/data_width] = In[i + data_width:i];	
+			assign reg_in[i/data_width] = In[i + data_width -1:i];	
 		end 	
 	endgenerate
 	
