@@ -1,34 +1,40 @@
-/*
-In: day so co do dai bang (data_width*R*C), với cu data_width bit tuong ung la 1 so
-Muc dich: tim so lon nhat trong tap hop so duoc luu
-*/
-module Max_Data #(parameter data_width = 32, R = 3, C = 3)(max_data, In);
-	input[data_width*R*C:0] In;	// tat ca gia tri pixel can xet, 1 pixel tuong ung 32 bit
-	output[data_width-1:0] max_data;
+module Max_Data #(parameter data_width = 32)(max_data, valid_out, In1, In2, In3, In4, clk, reset, valid_in);
+	input[data_width - 1:0] In1, In2, In3, In4;	
+	input clk, reset, valid_in;
+	output reg valid_out;
+	output reg[data_width-1:0] max_data;
 	
-	wire[data_width-1:0] reg_in[0:(R*C)-1];	// noi luu tru gia tri tung pixel dau vao
-	wire[data_width-1:0] reg_out[0:(R*C)-1];	// noi luu tru gia tri tung pixel dau ra
+	reg valid_op;
+	reg[data_width - 1:0] reg1, reg2;
+	wire[data_width - 1:0] out_temp1, out_temp2, out_temp3;
 	
-	// tien hanh luu tru input
-	genvar i;
-	generate
-		// chay vong for tu dau den pixel cuoi cung
-		// 32bit la 1 pixel nen i = i + data_width
-		for(i = 0; i <(data_width*R*C); i = i + data_width) begin
-			// do buoc nhay i = data_width nen reg_in[i/data_width]
-			assign reg_in[i/data_width] = In[i + data_width -1:i];	
-		end 	
-	endgenerate
-	
-	genvar j;
-	generate
-		assign reg_out[0] = reg_in[0]; 
-		for(j = 0; j < (R*C) - 1; j = j + 1) begin
-			Max_Value #(data_width) DUT(.max_value(reg_out[j+1]), .In1(reg_out[j]), .In2(reg_in[j+1]));
+	Max_Value #(data_width) m1(.max_value(out_temp1), .In1(In1), .In2(In2));
+	Max_Value #(data_width) m2(.max_value(out_temp2), .In1(In3), .In2(In4));
+
+	always @(posedge clk) begin
+		if(reset) begin
+			reg1 <= 'd0;
+			reg2 <= 'd0;
+			valid_op <= 'b0;
 		end
-		
-		assign max_data = reg_out[(R*C) - 1];
-	
-	endgenerate
-	
-endmodule
+		else if(valid_in) begin
+			reg1 <= out_temp1;
+			reg2 <= out_temp2;
+			valid_op <= valid_in;
+		end
+		else valid_op <= 'b0;
+	end
+
+	Max_Value #(data_width) m3(.max_value(out_temp3), .In1(reg1), .In2(reg2));
+
+	always @(posedge clk) begin
+		if(reset) begin
+			max_data <= 'd0;
+			valid_out <= 'b0;
+		end
+		else if(valid_op) begin
+			max_data <= out_temp3;
+			valid_out <= valid_op;
+		end
+		else valid_out <= 'b0;
+	end
