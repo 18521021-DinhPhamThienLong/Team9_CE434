@@ -5,7 +5,7 @@ module conv #(parameter In_d_W=32, R=3, C=3, In_Add_W=4, Timeperiod=10)(
     input clk,clk_en,rst,clr,en_wr,en_rd,wr,en_MAC,en_MAC_out,   //wr=1 (Write), wr=0 (Read)
     input [(C*R*In_d_W)-1:0] A, //[71:0] A as 9*8=72
     input [(C*R*In_d_W)-1:0] B, //[71:0] B as 9*8=72
-    output [((2*In_d_W)+2)-1:0] Y
+    output [In_d_W-1:0] Y
     );
     
     wire [((2**In_Add_W)*In_d_W)-1:0] Wrow;

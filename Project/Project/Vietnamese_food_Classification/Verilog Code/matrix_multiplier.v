@@ -10,7 +10,7 @@ input signed [In_W-1:0] din_r,din_c,
 input [In_D_Add_W-1:0] addra_r,addrb_r,addra_c,addrb_c,
 input en_MAC,
 input en_MAC_out,
-output signed [((2*In_W)+2)-1:0] y );
+output [In_W-1:0] y );
 
 //wire [In_D_Add_W-1:0] addr_r,addr_c;
 wire [In_W-1:0] row_in,col_in;

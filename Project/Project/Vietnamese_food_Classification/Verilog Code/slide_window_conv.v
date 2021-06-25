@@ -1,22 +1,22 @@
 `timescale 1ns / 1ps
 
-module slide_window_conv #(parameter In_d_W=32, In_Add_W=4, R_N=5, C_N=5, R_F=3, C_F=3, P=0, S=1, Timeperiod=10) (
+module slide_window_conv #(parameter In_d_W=32, In_Add_W=4, R_N=5, C_N=5, R_F=3, C_F=3, P=1, S=1, Timeperiod=10) (
     input clk,clk_en,rst,clr,en_wr,en_rd,wr,en_MAC,en_MAC_out,   //wr=1 (Write), wr=0 (Read)
-    input [(C_N*R_N*In_d_W)-1:0] N, // [199:0] N
+    input [((C_N+2*P)*(R_N+2*P)*In_d_W)-1:0] N, // [199:0] N
     input [(C_F*R_F*In_d_W)-1:0] F, // [71:0] F
-    output [(((2*In_d_W)+2)*(((R_N+(2*P)-R_F)/S)+1)*(((C_N+(2*P)-C_F)/S)+1))-1:0] Y   // [161:0] Y
+    output [(In_d_W*(((R_N+(2*P)-R_F)/S)+1)*(((C_N+(2*P)-C_F)/S)+1))-1:0] Y   // [161:0] Y
     );
     parameter R_O=(((R_N+(2*P)-R_F)/S)+1); //3
     parameter C_O=(((C_N+(2*P)-C_F)/S)+1); //3
-    parameter Out_d_W=((2*In_d_W)+2); //18
+    parameter Out_d_W=In_d_W; //18
     //wire [(In_d_W*R_N)-1:0] X [0:(C_N-1)];  // [39:0] X [0:4]
-    wire [(In_d_W*R_O)-1:0] Z [0:((R_O*C_N)-1)];  // [23:0] Z [0:14]
+    wire [(In_d_W*R_O)-1:0] Z [0:(R_O*(C_N+2*P)-1)];  // [23:0] Z [0:14]
     wire [(In_d_W*R_F*C_F)-1:0] A [0:(R_O*C_O)-1];  // [71:0] A [0:8]
     wire [Out_d_W-1:0] W [0:(R_O*C_O)-1];  // [17:0] W [0:8]
     
     generate
     genvar i,j;
-    for(i=0;i<C_N;i=i+1)  //i<5
+    for(i=0;i<C_N+2*P;i=i+1)  //i<5
         begin:gen1
             for(j=(R_O*i) ; j<(R_O+(R_O*i)) ; j=j+1) // j=3*i;  j<3+3i; j=j+1
             begin:gen2
