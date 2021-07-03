@@ -22,7 +22,7 @@ module featuremap_template
     and a2(valid_in_adder, valid_in_adder_tmp, valid_in_adder_B);
 
 FIFO_new #(
-        .DATA_WIDTH(DATA_WIDTH), .DEPTH(DEPTH)
+    .DATA_WIDTH(DATA_WIDTH*3), .DEPTH(DEPTH)
 )fifo_inst(
         .data_out(data_fifo_out),
         .full(), .empty(data_fifo_empty),
