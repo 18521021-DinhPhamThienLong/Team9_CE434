@@ -32,14 +32,18 @@ module line_buffer #(
           j <= 8'b0;
       end
       else if(valid_in)begin 
-          k <= k + 1;
+          
           if(k >= DIN-1)begin
               j <= j + 1'b1;
               if((j % WIDTH == (WIDTH-1))||(j % WIDTH == (WIDTH-2)))   // j % 7 == 6 || j % 7 == 5 => j = 13 || j = 12
                       valid_out <= 0; 
               else valid_out <= 1; 
           end
-          else valid_out <= 0; 
+          else
+          begin
+            valid_out <= 0; 
+            k <= k + 1;
+          end
       end 
       else  valid_out <= 0;   
   end     
