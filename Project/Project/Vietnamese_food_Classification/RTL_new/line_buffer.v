@@ -1,13 +1,13 @@
 module line_buffer #(
   parameter DATA_WIDTH = 32,
-  parameter WIDTH = 7
+  parameter WIDTH = 5
 )(
   output [DATA_WIDTH-1:0] data_out0, data_out1, data_out2, data_out3, data_out4, data_out5, data_out6, data_out7, data_out8,
   input  [DATA_WIDTH-1:0] data_in,
   input            valid_in, clk, rst,
   output reg valid_out
 );
-  parameter DIN = WIDTH*2 + 3;
+  parameter DIN = WIDTH*2+3;
   reg [DATA_WIDTH-1:0] regs[0:DIN-1];
 
   genvar i;
@@ -32,17 +32,15 @@ module line_buffer #(
           j <= 8'b0;
       end
       else if(valid_in)begin 
-          
-          if(k >= DIN-1)begin
+          if(k >= DIN)begin
               j <= j + 1'b1;
               if((j % WIDTH == (WIDTH-1))||(j % WIDTH == (WIDTH-2)))   // j % 7 == 6 || j % 7 == 5 => j = 13 || j = 12
                       valid_out <= 0; 
               else valid_out <= 1; 
-          end
-          else
-          begin
-            valid_out <= 0; 
-            k <= k + 1;
+          end 
+          else begin 
+              valid_out <= 0; 
+              k <= k + 1'b1;
           end
       end 
       else  valid_out <= 0;   
