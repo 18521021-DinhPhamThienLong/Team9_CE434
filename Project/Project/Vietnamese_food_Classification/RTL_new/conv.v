@@ -156,7 +156,7 @@ module conv #(
               data_out <= 32'd0;
               valid_out <= 0;
           end
-        else if(valid_in3)
+        else if(valid_in4)
           begin
               data_out <= add4;
               valid_out <= valid_in4;
