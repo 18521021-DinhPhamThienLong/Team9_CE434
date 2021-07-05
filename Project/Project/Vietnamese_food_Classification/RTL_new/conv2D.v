@@ -13,17 +13,40 @@ module conv2D #(
 )(
     input [DATA_WIDTH-1:0] data_in,
     input clk, rst, valid_in,
-    output valid_out, data_fifo_rden,
+    output valid_out,
     output [DATA_WIDTH-1:0] data_out
 );
     wire [DATA_WIDTH-1:0] data_in0, data_in1, data_in2, data_in3, data_in4, data_in5, data_in6, data_in7, data_in8, data_lines;
-    wire valid_out_line_buffer, valid_data_fifo_rden, valid_in_padding;
+    wire valid_out_line_buffer, valid_in_padding;
     reg En, padding_valid;
 
-    or o1 (valid_in_padding, valid_in, padding_valid);
-    and a2(valid_data_fifo_rden, valid_in, ~En);            //Khi khong padding thi doc tín hieu tu fifo
+    reg [7:0] i, j;
+    always @(posedge clk or posedge rst) 
+    begin
+        if(rst) begin
+            i <=  8'd0;
+            j <=  8'd0;
+            end
+        else if (valid_in) begin
+            i <= i + 1'd1;
+                if(i == WIDTH) begin  
+                i <= 1;
+                j <= j + 1'b1;
+                if(j == (WIDTH-1))
+                    padding_valid <= 0;
+                end
+                else if((j == 0) || (j == (WIDTH-1)))  
+                En <= 1'd1;  
+                else if (i == WIDTH-1)
+                En <= 1'd1; 
+                else  begin
+                En <= 1'd0;
+                padding_valid <= 1;
+                end 
+        end
+    end
 
-    assign data_fifo_rden = valid_data_fifo_rden;
+    or o1 (valid_in_padding, valid_in, padding_valid);
 
     zero_padding#(
         .DATA_WIDTH(DATA_WIDTH)
@@ -53,15 +76,15 @@ module conv2D #(
 
     conv #(
         .DATA_WIDTH(DATA_WIDTH),
-        .k0(k0),  //10
-        .k1(k1),  //10
-        .k2(k2),  //10
-        .k3(k3),  //10
-        .k4(k4),  //10
-        .k5(k5),  //10
-        .k6(k6),  //10
-        .k7(k7),  //10
-        .k8(k8)  //10  
+        .k0(k0),  
+        .k1(k1),  
+        .k2(k2),  
+        .k3(k3),  
+        .k4(k4),  
+        .k5(k5),  
+        .k6(k6),  
+        .k7(k7),  
+        .k8(k8)    
     )conv_inst(
         .data_in0(data_in0), 
         .data_in1(data_in1), 
@@ -77,29 +100,4 @@ module conv2D #(
         .valid_out(valid_out)
     );
 
-    reg [7:0] i, j;
-    always @(posedge clk) 
-    begin
-        if(rst) begin
-            i <=  8'd0;
-            j <=  8'd0;
-            end
-        else if (valid_in_padding) begin
-            i <= i + 1'd1;
-                if(i == WIDTH) begin  
-                i <= 1;
-                j <= j + 1'b1;
-                if(j == (WIDTH-1))
-                    padding_valid <= 0;
-                end
-                else if((j == 0) || (j == (WIDTH-1)))  
-                En <= 1'd1;  
-                else if (i == WIDTH-1)
-                En <= 1'd1; 
-                else  begin
-                En <= 1'd0;
-                padding_valid <= 1;
-                end 
-        end
-    end
 endmodule
