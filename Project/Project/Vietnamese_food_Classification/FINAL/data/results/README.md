@@ -18,9 +18,10 @@
 
 # III. KẾT QUẢ LAYER MAX_POOLING_0: Kích thước ảnh giảm xuống 56 x 56
 ## 1. Hiển thị các featuremap của layer conv2d_0 sử dụng rtl, python scripts và thư viện của keras
-![image](https://user-images.githubusercontent.com/53068735/125328399-77c15a00-e36e-11eb-87d6-177495b7c567.png)
-![image](https://user-images.githubusercontent.com/53068735/125328454-86a80c80-e36e-11eb-8f65-737fc4c9dcf8.png)
-![image](https://user-images.githubusercontent.com/53068735/125328478-8e67b100-e36e-11eb-896f-c114b86345cd.png)
+![image](https://user-images.githubusercontent.com/53068735/125328788-ed2d2a80-e36e-11eb-9d74-f705cba85262.png)
+![image](https://user-images.githubusercontent.com/53068735/125328818-f5856580-e36e-11eb-81ef-c54b4bbaceaa.png)
+![image](https://user-images.githubusercontent.com/53068735/125328853-fddda080-e36e-11eb-9fdb-dea213549525.png)
+
 ## 2. Độ sai lệch lớn nhất của pixel 
 ![image](https://user-images.githubusercontent.com/53068735/125328504-96275580-e36e-11eb-8b9c-dab4825b96f8.png)
 
