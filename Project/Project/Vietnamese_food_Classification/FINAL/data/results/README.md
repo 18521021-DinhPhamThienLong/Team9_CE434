@@ -27,7 +27,7 @@
 
 ## IV. KẾT QUẢ LAYER CONV2d_2
 ## 1. Hiển thị các featuremap của layer conv2d_0 sử dụng rtl, python scripts và thư viện của keras
-![image](https://user-images.githubusercontent.com/53068735/125343583-6f721a80-e380-11eb-91da-70d44dcbf394.png)
+![image](https://user-images.githubusercontent.com/53068735/125343804-b2cc8900-e380-11eb-887d-57b19c098d89.png)
 ![image](https://user-images.githubusercontent.com/53068735/125343614-7862ec00-e380-11eb-9cbe-e36ca1ba35f6.png)
 ![image](https://user-images.githubusercontent.com/53068735/125343645-81ec5400-e380-11eb-9c01-b0c73c90715a.png)
 
