@@ -15,3 +15,12 @@
 ![image](https://user-images.githubusercontent.com/53068735/125252536-afa2b000-e322-11eb-9b9a-4583dfc4d089.png)
 ## 2. Độ sai lệch lớn nhất của pixel 
 ![image](https://user-images.githubusercontent.com/53068735/125252569-b8938180-e322-11eb-8cbb-868df2e209ce.png)
+
+# III. KẾT QUẢ LAYER MAX_POOLING
+## 1. Hiển thị các featuremap của layer conv2d_0 sử dụng rtl, python scripts và thư viện của keras
+![image](https://user-images.githubusercontent.com/53068735/125328399-77c15a00-e36e-11eb-87d6-177495b7c567.png)
+![image](https://user-images.githubusercontent.com/53068735/125328454-86a80c80-e36e-11eb-8f65-737fc4c9dcf8.png)
+![image](https://user-images.githubusercontent.com/53068735/125328478-8e67b100-e36e-11eb-896f-c114b86345cd.png)
+## 2. Độ sai lệch lớn nhất của pixel 
+![image](https://user-images.githubusercontent.com/53068735/125328504-96275580-e36e-11eb-8b9c-dab4825b96f8.png)
+
