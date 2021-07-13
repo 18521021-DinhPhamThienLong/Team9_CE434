@@ -25,7 +25,7 @@
 ## 2. Độ sai lệch lớn nhất của pixel 
 ![image](https://user-images.githubusercontent.com/53068735/125408756-6ebf9f80-e3e5-11eb-85c3-1a046218b16b.png)
 
-## IV. KẾT QUẢ LAYER CONV2d_2
+## IV. KẾT QUẢ LAYER CONV2D_2
 ## 1. Hiển thị các featuremap của layer conv2d_2 sử dụng rtl, python scripts và thư viện của keras
 ![image](https://user-images.githubusercontent.com/53068735/125343804-b2cc8900-e380-11eb-887d-57b19c098d89.png)
 ![image](https://user-images.githubusercontent.com/53068735/125343614-7862ec00-e380-11eb-9cbe-e36ca1ba35f6.png)
@@ -34,7 +34,7 @@
 ## 2. Độ sai lệch lớn nhất của pixel 
 ![image](https://user-images.githubusercontent.com/53068735/125408318-fe188300-e3e4-11eb-8b55-f2756cbd48fe.png)
 
-## V. KẾT QUẢ LAYER CONV2d_3
+## V. KẾT QUẢ LAYER CONV2_3
 ## 1. Hiển thị các featuremap của layer conv2d_3 sử dụng rtl, python scripts và thư viện của keras
 ![image](https://user-images.githubusercontent.com/53068735/125408127-c4477c80-e3e4-11eb-90be-28aa1bd03068.png)
 ![image](https://user-images.githubusercontent.com/53068735/125408158-ce697b00-e3e4-11eb-8fcd-5f4911b7f2e4.png)
