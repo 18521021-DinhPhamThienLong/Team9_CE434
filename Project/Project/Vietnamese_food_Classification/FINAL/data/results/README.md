@@ -40,7 +40,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/125408158-ce697b00-e3e4-11eb-8fcd-5f4911b7f2e4.png)
 ![image](https://user-images.githubusercontent.com/53068735/125408194-d88b7980-e3e4-11eb-9e19-c17e7cd39997.png)
 
-## 2. Độ sai lệch của t pixel 
+## 2. Độ sai lệch của từng pixel 
 ![image](https://user-images.githubusercontent.com/53068735/126043239-628edec0-1aa4-4db4-be81-cfe3193ce03a.png)
 
 ## VI. KẾT QUẢ LAYER CONV2_4
@@ -49,8 +49,8 @@
 ![image](https://user-images.githubusercontent.com/53068735/125447583-bffdd72d-395a-45a5-83db-f22690b5cac3.png)
 ![image](https://user-images.githubusercontent.com/53068735/125447625-f7de50d2-50af-44a5-b4a8-9863e3d65ce2.png)
 
-## 2. Độ sai lệch lớn nhất của pixel 
-![image](https://user-images.githubusercontent.com/53068735/125447657-c645478b-bea9-4e43-8e9b-4022730a54ce.png)
+## 2. Độ sai lệch của từng pixel 
+![image](https://user-images.githubusercontent.com/53068735/126044312-3258a3f7-b6ec-43fd-a4e7-86ec289e9602.png)
 
 # V. KẾT QUẢ LAYER MAX_POOLING_1: Kích thước ảnh giảm xuống 28 x 28
 ## 1. Hiển thị kết quả layer max_pooling_1 sử dụng rtl, python scripts và thư viện của keras
