@@ -58,8 +58,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/125450766-8f99a928-148e-4ecf-9263-e4bdef0ce430.png)
 ![image](https://user-images.githubusercontent.com/53068735/125450800-6f372e68-c01e-48af-9d80-26639ef8d2ce.png)
 
-## 2. Độ sai lệch lớn nhất của pixel 
-![image](https://user-images.githubusercontent.com/53068735/125450844-6bacee6b-a2bb-43e1-9e6d-c8aca717496e.png)
-
+## 2. Độ sai lệch của tpixel 
+![image](https://user-images.githubusercontent.com/53068735/126044550-3dd0b56f-7d29-46d5-96b7-23c4ab519b52.png)
 
 
