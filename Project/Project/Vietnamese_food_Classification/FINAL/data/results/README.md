@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/125252497-a74a7500-e322-11eb-8082-787917c24416.png)
 ![image](https://user-images.githubusercontent.com/53068735/125252536-afa2b000-e322-11eb-9b9a-4583dfc4d089.png)
 ## 2. Độ sai lệch của từng pixel 
-![image](https://user-images.githubusercontent.com/53068735/126040513-b4734206-fef3-41d9-8045-8a73386432b5.png)
+![image](https://user-images.githubusercontent.com/53068735/126041706-ae1b8b81-7597-4655-b7a4-ce632ac260b1.png)
 
 # III. KẾT QUẢ LAYER MAX_POOLING_0: Kích thước ảnh giảm xuống 56 x 56
 ## 1. Hiển thị kết quả layer max_pooling_0 sử dụng rtl, python scripts và thư viện của keras
