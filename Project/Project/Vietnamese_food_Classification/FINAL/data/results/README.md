@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/125249419-6b61e080-e31f-11eb-8ae9-2f51754f07ae.png)
 ![image](https://user-images.githubusercontent.com/53068735/125249674-afed7c00-e31f-11eb-9b59-3fe16d6be67e.png)
 ![image](https://user-images.githubusercontent.com/53068735/125249739-be3b9800-e31f-11eb-9f99-f9447570bff1.png)
-## 2. Độ sai lệch lớn nhất của pixel 
+## 2. Độ sai lệch của tpixel 
 ![image](https://user-images.githubusercontent.com/53068735/126040380-637b4877-dfe0-4c7d-ad30-8e48a7f0bcea.png)
 
 # II. KẾT QUẢ LAYER CONV2D_1
@@ -13,7 +13,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/125252463-9bf74980-e322-11eb-8e4a-9a5ba1a75980.png)
 ![image](https://user-images.githubusercontent.com/53068735/125252497-a74a7500-e322-11eb-8082-787917c24416.png)
 ![image](https://user-images.githubusercontent.com/53068735/125252536-afa2b000-e322-11eb-9b9a-4583dfc4d089.png)
-## 2. Độ sai lệch lớn nhất của pixel 
+## 2. Độ sai lệch của từng pixel 
 ![image](https://user-images.githubusercontent.com/53068735/126040513-b4734206-fef3-41d9-8045-8a73386432b5.png)
 
 # III. KẾT QUẢ LAYER MAX_POOLING_0: Kích thước ảnh giảm xuống 56 x 56
@@ -22,7 +22,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/125328818-f5856580-e36e-11eb-81ef-c54b4bbaceaa.png)
 ![image](https://user-images.githubusercontent.com/53068735/125328853-fddda080-e36e-11eb-9fdb-dea213549525.png)
 
-## 2. Độ sai lệch lớn nhất của pixel 
+## 2. Độ sai lệch của từng pixel 
 ![image](https://user-images.githubusercontent.com/53068735/125408756-6ebf9f80-e3e5-11eb-85c3-1a046218b16b.png)
 
 ## IV. KẾT QUẢ LAYER CONV2D_2
@@ -31,8 +31,8 @@
 ![image](https://user-images.githubusercontent.com/53068735/125343614-7862ec00-e380-11eb-9cbe-e36ca1ba35f6.png)
 ![image](https://user-images.githubusercontent.com/53068735/125343645-81ec5400-e380-11eb-9c01-b0c73c90715a.png)
 
-## 2. Độ sai lệch lớn nhất của pixel 
-![image](https://user-images.githubusercontent.com/53068735/125408318-fe188300-e3e4-11eb-8b55-f2756cbd48fe.png)
+## 2. Độ sai lệch của từng pixel 
+![image](https://user-images.githubusercontent.com/53068735/126040969-0e532d90-8b36-44af-adc0-94333ffdcd37.png)
 
 ## V. KẾT QUẢ LAYER CONV2_3
 ## 1. Hiển thị các featuremap của layer conv2d_3 sử dụng rtl, python scripts và thư viện của keras
