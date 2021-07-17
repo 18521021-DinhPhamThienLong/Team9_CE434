@@ -5,8 +5,8 @@
 ![image](https://user-images.githubusercontent.com/53068735/125249419-6b61e080-e31f-11eb-8ae9-2f51754f07ae.png)
 ![image](https://user-images.githubusercontent.com/53068735/125249674-afed7c00-e31f-11eb-9b59-3fe16d6be67e.png)
 ![image](https://user-images.githubusercontent.com/53068735/125249739-be3b9800-e31f-11eb-9f99-f9447570bff1.png)
-## 2. Độ sai lệch của tpixel 
-![image](https://user-images.githubusercontent.com/53068735/126040380-637b4877-dfe0-4c7d-ad30-8e48a7f0bcea.png)
+## 2. Độ sai lệch của từng pixel 
+![image](https://user-images.githubusercontent.com/53068735/126041438-2a408f7e-e5ac-4786-8ff5-c6d9a49dfaa6.png)
 
 # II. KẾT QUẢ LAYER CONV2D_1
 ## 1. Hiển thị các featuremap của layer conv2d_1 sử dụng rtl, python scripts và thư viện của keras
