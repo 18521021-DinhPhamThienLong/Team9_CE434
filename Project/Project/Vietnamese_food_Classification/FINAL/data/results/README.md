@@ -62,6 +62,6 @@
 ![image](https://user-images.githubusercontent.com/53068735/126044550-3dd0b56f-7d29-46d5-96b7-23c4ab519b52.png)
 
 # VIII. KẾT QUẢ LAYER FLATTEN
-![image](https://user-images.githubusercontent.com/53068735/126068731-45d783db-27e6-4801-ba28-85e40b96d56f.png)
+![image](https://user-images.githubusercontent.com/53068735/126068899-45425ea2-e6fa-4bdd-b60f-23f571cdb1c9.png)
 
 
