@@ -30,12 +30,12 @@
 
 ## IV. KẾT QUẢ LAYER CONV2D_2
 ## 1. Hiển thị các featuremap của layer conv2d_2 sử dụng rtl, python scripts và thư viện của keras
-![image](https://user-images.githubusercontent.com/53068735/125343804-b2cc8900-e380-11eb-887d-57b19c098d89.png)
-![image](https://user-images.githubusercontent.com/53068735/125343614-7862ec00-e380-11eb-9cbe-e36ca1ba35f6.png)
-![image](https://user-images.githubusercontent.com/53068735/125343645-81ec5400-e380-11eb-9c01-b0c73c90715a.png)
+![image](https://user-images.githubusercontent.com/53068735/126079368-f6ac7244-566c-4b0a-a64d-ecf617326578.png)
+![image](https://user-images.githubusercontent.com/53068735/126079379-db4d9657-8890-4268-ba5f-34bbe256b8df.png)
+![image](https://user-images.githubusercontent.com/53068735/126079395-e8a3d374-6646-43ac-8ca3-4935b65b4349.png)
 
 ## 2. Độ sai lệch của từng pixel 
-![image](https://user-images.githubusercontent.com/53068735/126040969-0e532d90-8b36-44af-adc0-94333ffdcd37.png)
+![image](https://user-images.githubusercontent.com/53068735/126079406-5995edad-bfc6-4f30-8b7e-7a96a66f9ee8.png) ![image](https://user-images.githubusercontent.com/53068735/126079415-6c7152b0-23b6-48cf-88b0-adc03e9f2bee.png)
 
 ## V. KẾT QUẢ LAYER CONV2_3
 ## 1. Hiển thị các featuremap của layer conv2d_3 sử dụng rtl, python scripts và thư viện của keras
