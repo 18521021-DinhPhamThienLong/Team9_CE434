@@ -1,5 +1,5 @@
-# Ảnh đầu vào, kích thước 112 x 112:
-![banh mi95](https://user-images.githubusercontent.com/53068735/126075731-a497958e-35ad-43c8-8935-e4c82f460691.jpg)![pho95](https://user-images.githubusercontent.com/53068735/126075736-d1ee8a52-4d5b-47da-9775-9bc4d3f7d884.jpg)
+# Ảnh đầu vào sẽ được resize về kích thước 112 x 112:
+![image](https://user-images.githubusercontent.com/53068735/126075824-4f88eb3c-ea96-4453-bfb9-11cd8c80363f.png)
 
 # I. KẾT QUẢ LAYER CONV2D_0
 ## 1. Hiển thị các featuremap của layer conv2d_0 sử dụng rtl, python scripts và thư viện của keras
