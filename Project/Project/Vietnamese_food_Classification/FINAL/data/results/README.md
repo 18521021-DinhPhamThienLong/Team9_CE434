@@ -21,12 +21,13 @@
 
 # III. KẾT QUẢ LAYER MAX_POOLING_0: Kích thước ảnh giảm xuống 56 x 56
 ## 1. Hiển thị kết quả layer max_pooling_0 sử dụng rtl, python scripts và thư viện của keras
-![image](https://user-images.githubusercontent.com/53068735/125328788-ed2d2a80-e36e-11eb-9d74-f705cba85262.png)
-![image](https://user-images.githubusercontent.com/53068735/125328818-f5856580-e36e-11eb-81ef-c54b4bbaceaa.png)
-![image](https://user-images.githubusercontent.com/53068735/125328853-fddda080-e36e-11eb-9fdb-dea213549525.png)
+![image](https://user-images.githubusercontent.com/53068735/126078240-9411f312-a373-4337-a9fa-4b237a08f749.png)
+![image](https://user-images.githubusercontent.com/53068735/126078282-0e130e91-23b0-48b9-82ee-ddb5777f120f.png)
+![image](https://user-images.githubusercontent.com/53068735/126078317-91996850-af39-497e-b0d0-b3546d110517.png)
 
 ## 2. Độ sai lệch của từng pixel 
-![image](https://user-images.githubusercontent.com/53068735/126041893-ef2745db-ffb6-47d6-b014-72c9211b282f.png)
+![image](https://user-images.githubusercontent.com/53068735/126078361-ef5283fc-1f17-480c-835c-8ed7066af962.png) ![image](https://user-images.githubusercontent.com/53068735/126078367-d6c8a118-d9dd-411a-bd2a-818bbac378b3.png)
+
 
 ## IV. KẾT QUẢ LAYER CONV2D_2
 ## 1. Hiển thị các featuremap của layer conv2d_2 sử dụng rtl, python scripts và thư viện của keras
