@@ -16,7 +16,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/125252497-a74a7500-e322-11eb-8082-787917c24416.png)
 ![image](https://user-images.githubusercontent.com/53068735/125252536-afa2b000-e322-11eb-9b9a-4583dfc4d089.png)
 ## 2. Độ sai lệch của từng pixel 
-![image](https://user-images.githubusercontent.com/53068735/126077212-249774fd-a923-4d1e-beab-741f2acdef65.png) ![image](https://user-images.githubusercontent.com/53068735/126077241-0a9c64a9-076b-4124-8b6b-22230daccaa3.png)
+![image](https://user-images.githubusercontent.com/53068735/126077212-249774fd-a923-4d1e-beab-741f2acdef65.png) ![image](https://user-images.githubusercontent.com/53068735/126077264-eefc56cf-d808-4d04-8550-995aaebd4515.png)
 
 
 # III. KẾT QUẢ LAYER MAX_POOLING_0: Kích thước ảnh giảm xuống 56 x 56
