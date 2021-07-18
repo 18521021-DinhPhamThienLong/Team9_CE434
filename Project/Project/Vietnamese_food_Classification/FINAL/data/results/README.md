@@ -12,9 +12,9 @@
 
 # II. KẾT QUẢ LAYER CONV2D_1
 ## 1. Hiển thị các featuremap của layer conv2d_1 sử dụng rtl, python scripts và thư viện của keras
-![image](https://user-images.githubusercontent.com/53068735/125252463-9bf74980-e322-11eb-8e4a-9a5ba1a75980.png)
-![image](https://user-images.githubusercontent.com/53068735/125252497-a74a7500-e322-11eb-8082-787917c24416.png)
-![image](https://user-images.githubusercontent.com/53068735/125252536-afa2b000-e322-11eb-9b9a-4583dfc4d089.png)
+![image](https://user-images.githubusercontent.com/53068735/126077337-38205b10-dd44-4c39-bbf0-ebc11ac820c8.png)
+![image](https://user-images.githubusercontent.com/53068735/126077371-c8c7163d-7213-4070-a367-81e1acea4a7c.png)
+![image](https://user-images.githubusercontent.com/53068735/126077388-7740a025-581b-4702-9af9-d3e20b14e7cb.png)
 ## 2. Độ sai lệch của từng pixel 
 ![image](https://user-images.githubusercontent.com/53068735/126077212-249774fd-a923-4d1e-beab-741f2acdef65.png) ![image](https://user-images.githubusercontent.com/53068735/126077264-eefc56cf-d808-4d04-8550-995aaebd4515.png)
 
