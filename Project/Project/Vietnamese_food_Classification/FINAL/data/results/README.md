@@ -7,7 +7,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/126075933-8282e455-e05e-4f80-a2b9-6ab0a8e7f266.png)
 ![image](https://user-images.githubusercontent.com/53068735/126075947-96efde03-fbac-4be3-8580-b99ea35dc606.png)
 ## 2. Độ sai lệch của từng pixel  
-!![image](https://user-images.githubusercontent.com/53068735/126076312-d6fde214-670e-4624-a278-b84380117d5c.png) ![image](https://user-images.githubusercontent.com/53068735/126076163-684e4ca7-963e-4735-b0e5-8e1b6a984fc6.png)
+![image](https://user-images.githubusercontent.com/53068735/126076330-d5ec30c9-af35-4e77-9568-dbfc1ba97b5b.png) ![image](https://user-images.githubusercontent.com/53068735/126076163-684e4ca7-963e-4735-b0e5-8e1b6a984fc6.png)
 
 
 # II. KẾT QUẢ LAYER CONV2D_1
