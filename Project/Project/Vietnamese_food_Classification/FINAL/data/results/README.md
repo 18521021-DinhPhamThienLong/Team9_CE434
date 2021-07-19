@@ -57,12 +57,12 @@
 
 # VII. KẾT QUẢ LAYER MAX_POOLING_1: Kích thước ảnh giảm xuống 28 x 28
 ## 1. Hiển thị kết quả layer max_pooling_1 sử dụng rtl, python scripts và thư viện của keras
-![image](https://user-images.githubusercontent.com/53068735/125450733-5ca724f4-5d2d-4a63-b055-084b13dc64e7.png)
-![image](https://user-images.githubusercontent.com/53068735/125450766-8f99a928-148e-4ecf-9263-e4bdef0ce430.png)
-![image](https://user-images.githubusercontent.com/53068735/125450800-6f372e68-c01e-48af-9d80-26639ef8d2ce.png)
+![image](https://user-images.githubusercontent.com/53068735/126135045-45d13cfa-669a-4240-b914-93bfc3993afa.png)
+![image](https://user-images.githubusercontent.com/53068735/126135157-129789a6-45b9-49a0-bb00-b9f329c0714a.png)
+![image](https://user-images.githubusercontent.com/53068735/126135240-445453ab-fb20-4299-8538-e93526feec70.png)
 
 ## 2. Độ sai lệch của từng pixel 
-![image](https://user-images.githubusercontent.com/53068735/126044550-3dd0b56f-7d29-46d5-96b7-23c4ab519b52.png)
+   ![image](https://user-images.githubusercontent.com/53068735/126135339-57fdb8c2-e64e-4717-a8b1-310a787b14e0.png)  ![image](https://user-images.githubusercontent.com/53068735/126135398-85446d06-328f-4d02-8628-32ecb59ca9e9.png)
 
 # VIII. KẾT QUẢ LAYER FLATTEN
 ![image](https://user-images.githubusercontent.com/53068735/126068899-45425ea2-e6fa-4bdd-b60f-23f571cdb1c9.png)
