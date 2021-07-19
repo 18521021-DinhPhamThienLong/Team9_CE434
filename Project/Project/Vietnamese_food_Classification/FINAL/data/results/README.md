@@ -44,7 +44,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/126103523-63d9fb4e-94cf-411f-aec9-3c72f27be76e.png)
 
 ## 2. Độ sai lệch của từng pixel 
-![image](https://user-images.githubusercontent.com/53068735/126103573-4ec91ebe-2de8-4ac7-9603-c3f7101a141a.png) ![image](https://user-images.githubusercontent.com/53068735/126103604-76711805-356e-4d3d-a08c-6f854deca987.png)
+![image](https://user-images.githubusercontent.com/53068735/126103710-df6b52b9-54cf-40b2-8652-81013bea0905.png) ![image](https://user-images.githubusercontent.com/53068735/126103604-76711805-356e-4d3d-a08c-6f854deca987.png)
 
 ## VI. KẾT QUẢ LAYER CONV2_4
 ## 1. Hiển thị các featuremap của layer conv2d_4 sử dụng rtl, python scripts và thư viện của keras
