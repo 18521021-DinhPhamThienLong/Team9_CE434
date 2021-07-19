@@ -65,7 +65,7 @@
    ![image](https://user-images.githubusercontent.com/53068735/126135679-ae412e41-d48f-4739-b4bb-3b1569e01dbf.png)  ![image](https://user-images.githubusercontent.com/53068735/126135832-216bcf3a-e998-4682-b598-f0409064a128.png)
 
 # VIII. KẾT QUẢ LAYER FLATTEN
-![image](https://user-images.githubusercontent.com/53068735/126140769-9a976525-f399-454b-b329-212cbb5593b3.png) ![image](https://user-images.githubusercontent.com/53068735/126141075-024591d7-1b08-4004-a00d-c1fce614f9ae.png)
+![image](https://user-images.githubusercontent.com/53068735/126140769-9a976525-f399-454b-b329-212cbb5593b3.png)  ![image](https://user-images.githubusercontent.com/53068735/126141204-2c02237c-9609-4231-9cda-053125ba74cd.png)
 
 ## 2. Độ sai lệch của từng pixel 
 ![image](https://user-images.githubusercontent.com/53068735/126140889-6606f076-2112-4bfa-a7a4-f25de51a3450.png)  ![image](https://user-images.githubusercontent.com/53068735/126140943-6031d0a9-4915-414c-81f2-62c973f3af6f.png)
