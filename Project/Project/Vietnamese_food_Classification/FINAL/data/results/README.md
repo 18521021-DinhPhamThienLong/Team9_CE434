@@ -73,7 +73,7 @@
 
 # IX. KẾT QUẢ LAYER FC0_DENSE 32
 ## 1. Kết quả sử dụng rtl, python scripts và thư viện của keras
-![image](https://user-images.githubusercontent.com/53068735/126344247-afa98996-dc0c-4b95-a612-6d54104483a2.png)  ![image](https://user-images.githubusercontent.com/53068735/126344315-db0edd28-ca4b-4d58-af46-7d6c7735900a.png)
+![image](https://user-images.githubusercontent.com/53068735/126344631-edc2152a-5a0d-4d2a-ad30-8ca0d77cc3c4.png)  ![image](https://user-images.githubusercontent.com/53068735/126344693-02e3265e-bc6f-4c0e-a8f0-416fd79a16c7.png)
 
 ## 2. Độ sai lệch của từng pixel 
 ![image](https://user-images.githubusercontent.com/53068735/126344399-a2865212-1340-4a93-81d4-93efbaf8567e.png)  ![image](https://user-images.githubusercontent.com/53068735/126344456-124d2278-6ba1-4256-ba3d-b24ec4283bdd.png)
