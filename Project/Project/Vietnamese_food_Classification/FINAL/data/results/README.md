@@ -114,3 +114,13 @@
 
 ## 2. Độ sai lệch từng pixel
 ![image](https://user-images.githubusercontent.com/53068735/126682435-8bbb9c12-5595-47df-a256-3e45398f7c12.png)  ![image](https://user-images.githubusercontent.com/53068735/126682480-0c3fd1c8-0d0e-4c3a-8cea-617bd9630a55.png)
+
+# IV. KẾT QỦA LAYER CONV2D_2
+## 1. Hiển thị các featuremap của layer conv2d_2 sử dụng rtl, python scripts và thư viện của keras
+![image](https://user-images.githubusercontent.com/53068735/126683714-608ee2c8-5915-48fc-8c10-a22584500083.png)
+![image](https://user-images.githubusercontent.com/53068735/126683777-074a9e51-9149-4d9a-8a78-1bad842cf8f1.png)
+![image](https://user-images.githubusercontent.com/53068735/126683810-29578c48-4afc-452e-9713-9b0868def33d.png)
+
+## 2. Độ sai lệch từng pixel
+![image](https://user-images.githubusercontent.com/53068735/126684029-26919568-0456-494c-acb6-4251806d2c9a.png)  ![image](https://user-images.githubusercontent.com/53068735/126684098-299a7e2a-c287-46da-9832-7365c7342037.png)
+
