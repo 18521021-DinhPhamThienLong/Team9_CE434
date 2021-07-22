@@ -1,4 +1,4 @@
-# Ảnh đầu vào sẽ được resize về kích thước 112 x 112:
+# A. Ảnh đầu vào sẽ được resize về kích thước 112 x 112:
 ![image](https://user-images.githubusercontent.com/53068735/126075824-4f88eb3c-ea96-4453-bfb9-11cd8c80363f.png)
 
 # I. KẾT QUẢ LAYER CONV2D_0
@@ -85,7 +85,7 @@
 ## 2. Độ sai lệch của từng pixel 
 ![image](https://user-images.githubusercontent.com/53068735/126364765-cfa7d4fb-05c0-45da-a6fa-58ab05357d05.png)  ![image](https://user-images.githubusercontent.com/53068735/126364805-c24f4d6a-1e49-45b4-8479-ae57cef82e16.png)
 
-# Ảnh đầu vào sẽ được resize về kích thước 112 x 112:
+# B. Ảnh đầu vào sẽ được resize về kích thước 112 x 112:
 ![image](https://user-images.githubusercontent.com/53068735/126677059-340a0e57-2a9c-43d8-8ad2-b2c364debf83.png)
 
 # I. KẾT QUẢ LAYER CONV2D_0
@@ -97,6 +97,12 @@
 ## 2. Độ sai lệch từng pixel
 ![image](https://user-images.githubusercontent.com/53068735/126677822-977dcc0e-2897-4daa-b516-19df5ac170a9.png)  ![image](https://user-images.githubusercontent.com/53068735/126677913-41f3f550-275f-43fb-a559-7e5dbd90e55f.png)
 
+# II. KẾT QUẢ LAYER CONV2D_1
+## 1. Hiển thị các featuremap của layer conv2d_1 sử dụng rtl, python scripts và thư viện của keras
+![image](https://user-images.githubusercontent.com/53068735/126679783-9d80622e-84a9-49ad-9778-681af02a5aab.png)
+![image](https://user-images.githubusercontent.com/53068735/126679846-ded5523b-1a4d-4280-82d5-c673bea91744.png)
+![image](https://user-images.githubusercontent.com/53068735/126679890-f547d7db-a64b-41d0-907e-f209c6c4255e.png)
 
-
+## 2.Độ sai lệch từng pixel
+![image](https://user-images.githubusercontent.com/53068735/126679997-99e03f9e-d8b2-44b2-925c-2d7271f40e13.png)  ![image](https://user-images.githubusercontent.com/53068735/126680023-e71a17fd-cb37-4adb-9bbc-db77d5262ac4.png)
 
