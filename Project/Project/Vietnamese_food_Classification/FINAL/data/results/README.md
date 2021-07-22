@@ -131,4 +131,4 @@
 ![image](https://user-images.githubusercontent.com/53068735/126693371-bd9d7cf6-2d03-405d-b382-cd8f65056483.png)
 
 ## 2. Độ sai lệch từng pixel
-![image](https://user-images.githubusercontent.com/53068735/126693410-33f3d46e-225f-41f4-9a38-42cdef6d200e.png)  ![image](https://user-images.githubusercontent.com/53068735/126693488-08448fd2-e572-4ab4-97a3-b59069fd8f6e.png
+![image](https://user-images.githubusercontent.com/53068735/126693410-33f3d46e-225f-41f4-9a38-42cdef6d200e.png)  ![image](https://user-images.githubusercontent.com/53068735/126693544-0c9a18db-4a02-4292-910d-761dd9fb0bc9.png)
