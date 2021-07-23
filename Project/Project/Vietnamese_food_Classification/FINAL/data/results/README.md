@@ -164,3 +164,10 @@
 
 ## 2. Độ sai lệch từng pixel
 ![image](https://user-images.githubusercontent.com/53068735/126752155-59e5b520-e903-4a84-9303-bc3ac3a7696a.png)  ![image](https://user-images.githubusercontent.com/53068735/126752182-8abb3cff-aa33-4050-a6eb-94d32f72549b.png)
+
+# X. KẾT QUẢ LAYER FC1_DENSE 2, ACTIVATION SOFTMAX
+## 1. Kết quả sử dụng rtl, python scripts và thư viện của keras
+![image](https://user-images.githubusercontent.com/53068735/126752951-81209de6-d01f-40ac-b1b6-693c7408e0c3.png)  ![image](https://user-images.githubusercontent.com/53068735/126752992-1b11e8d4-d5a6-467a-b5cb-7b8aac934a6b.png)
+
+## 2. Độ sai lệch từng pixel
+![image](https://user-images.githubusercontent.com/53068735/126753019-109800f5-b8a3-487d-a468-d505a68578eb.png)  ![image](https://user-images.githubusercontent.com/53068735/126753044-de6af3f5-1c8d-4916-804b-a3646b3617b0.png)
