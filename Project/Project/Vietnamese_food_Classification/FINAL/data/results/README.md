@@ -76,14 +76,14 @@
 ![image](https://user-images.githubusercontent.com/53068735/126344631-edc2152a-5a0d-4d2a-ad30-8ca0d77cc3c4.png)  ![image](https://user-images.githubusercontent.com/53068735/126344693-02e3265e-bc6f-4c0e-a8f0-416fd79a16c7.png)
 
 ## 2. Độ sai lệch của từng pixel 
-![image](https://user-images.githubusercontent.com/53068735/126344399-a2865212-1340-4a93-81d4-93efbaf8567e.png)  ![image](https://user-images.githubusercontent.com/53068735/126344456-124d2278-6ba1-4256-ba3d-b24ec4283bdd.png)
+![image](https://user-images.githubusercontent.com/53068735/126755392-6f12524d-5512-449a-a967-d769697c0cc4.png)  ![image](https://user-images.githubusercontent.com/53068735/126755429-1102c4ea-427c-40bc-916a-cb5506e667f1.png)
 
 # X. KẾT QUẢ LAYER FC1_DENSE2, ACTIVATION SOFTMAX
 ## 1. Kết quả sử dụng rtl, python scripts và thư viện của keras
 ![image](https://user-images.githubusercontent.com/53068735/126364672-e9bd774c-cb02-48f1-8720-8a3abdf394a3.png)  ![image](https://user-images.githubusercontent.com/53068735/126364701-570947fd-4dec-4ce2-a761-be7341b622cf.png)
 
 ## 2. Độ sai lệch của từng pixel 
-![image](https://user-images.githubusercontent.com/53068735/126364765-cfa7d4fb-05c0-45da-a6fa-58ab05357d05.png)  ![image](https://user-images.githubusercontent.com/53068735/126364805-c24f4d6a-1e49-45b4-8479-ae57cef82e16.png)
+![image](https://user-images.githubusercontent.com/53068735/126755237-a705b407-dfce-44bc-be89-23d7277d3d67.png)  ![image](https://user-images.githubusercontent.com/53068735/126755259-219825f4-b087-4eef-99f9-23fb6c9fcead.png)
 
 # B. Ảnh đầu vào sẽ được resize về kích thước 112 x 112:
 ![image](https://user-images.githubusercontent.com/53068735/126677059-340a0e57-2a9c-43d8-8ad2-b2c364debf83.png)
