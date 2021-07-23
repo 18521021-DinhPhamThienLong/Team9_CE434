@@ -7,8 +7,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/126075933-8282e455-e05e-4f80-a2b9-6ab0a8e7f266.png)
 ![image](https://user-images.githubusercontent.com/53068735/126075947-96efde03-fbac-4be3-8580-b99ea35dc606.png)
 ## 2. Độ sai lệch của từng pixel  
-   ![image](https://user-images.githubusercontent.com/53068735/126076350-9c2e2f67-ea51-4a2a-8996-b6daa4e7a937.png)  ![image](https://user-images.githubusercontent.com/53068735/126076163-684e4ca7-963e-4735-b0e5-8e1b6a984fc6.png)
-
+![image](https://user-images.githubusercontent.com/53068735/126755958-56bd8ee5-5e38-41e8-ad8e-0f9cba1ed520.png)  ![image](https://user-images.githubusercontent.com/53068735/126755983-0443db01-0741-4f6e-b76c-5be082445fbc.png)
 
 # II. KẾT QUẢ LAYER CONV2D_1
 ## 1. Hiển thị các featuremap của layer conv2d_1 sử dụng rtl, python scripts và thư viện của keras
@@ -16,8 +15,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/126077371-c8c7163d-7213-4070-a367-81e1acea4a7c.png)
 ![image](https://user-images.githubusercontent.com/53068735/126077388-7740a025-581b-4702-9af9-d3e20b14e7cb.png)
 ## 2. Độ sai lệch của từng pixel 
-   ![image](https://user-images.githubusercontent.com/53068735/126077212-249774fd-a923-4d1e-beab-741f2acdef65.png)  ![image](https://user-images.githubusercontent.com/53068735/126077264-eefc56cf-d808-4d04-8550-995aaebd4515.png)
-
+![image](https://user-images.githubusercontent.com/53068735/126756101-d47e7909-5f8e-4e65-90f5-abafe4c6e9c2.png)  ![image](https://user-images.githubusercontent.com/53068735/126756126-35d3cf4e-be73-465b-972f-47e9072d6e5f.png)
 
 # III. KẾT QUẢ LAYER MAX_POOLING_0: Kích thước ảnh giảm xuống 56 x 56
 ## 1. Hiển thị kết quả layer max_pooling_0 sử dụng rtl, python scripts và thư viện của keras
@@ -26,7 +24,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/126078317-91996850-af39-497e-b0d0-b3546d110517.png)
 
 ## 2. Độ sai lệch của từng pixel 
-   ![image](https://user-images.githubusercontent.com/53068735/126078632-bbc01e09-9c60-4165-a99c-9f3ed41638e3.png)  ![image](https://user-images.githubusercontent.com/53068735/126078496-394e4f79-fc69-441e-9a8a-84904f49975a.png)
+![image](https://user-images.githubusercontent.com/53068735/126756281-2967f731-1733-4d90-b8a3-133fc792e193.png)  ![image](https://user-images.githubusercontent.com/53068735/126756370-3bfb2259-4c69-4860-a99a-560a6985494f.png)
 
 ## IV. KẾT QUẢ LAYER CONV2D_2
 ## 1. Hiển thị các featuremap của layer conv2d_2 sử dụng rtl, python scripts và thư viện của keras
@@ -35,7 +33,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/126079395-e8a3d374-6646-43ac-8ca3-4935b65b4349.png)
 
 ## 2. Độ sai lệch của từng pixel 
-   ![image](https://user-images.githubusercontent.com/53068735/126079406-5995edad-bfc6-4f30-8b7e-7a96a66f9ee8.png)  ![image](https://user-images.githubusercontent.com/53068735/126079415-6c7152b0-23b6-48cf-88b0-adc03e9f2bee.png)
+![image](https://user-images.githubusercontent.com/53068735/126756462-875514d8-bba5-4533-a2f1-4cb0f1bc57f5.png)  ![image](https://user-images.githubusercontent.com/53068735/126756497-4a775352-bb41-4082-b526-ea4971d405c1.png)
 
 ## V. KẾT QUẢ LAYER CONV2_3
 ## 1. Hiển thị các featuremap của layer conv2d_3 sử dụng rtl, python scripts và thư viện của keras
@@ -44,7 +42,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/126103523-63d9fb4e-94cf-411f-aec9-3c72f27be76e.png)
 
 ## 2. Độ sai lệch của từng pixel 
-   ![image](https://user-images.githubusercontent.com/53068735/126103710-df6b52b9-54cf-40b2-8652-81013bea0905.png)  ![image](https://user-images.githubusercontent.com/53068735/126103604-76711805-356e-4d3d-a08c-6f854deca987.png)
+![image](https://user-images.githubusercontent.com/53068735/126756653-c2c1e827-b22e-4783-84d5-7bd68fa80e6f.png)  ![image](https://user-images.githubusercontent.com/53068735/126756682-1079dc0c-4364-4467-9b39-fc662aba9fa4.png)
 
 ## VI. KẾT QUẢ LAYER CONV2_4
 ## 1. Hiển thị các featuremap của layer conv2d_4 sử dụng rtl, python scripts và thư viện của keras
@@ -53,7 +51,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/126130593-2211ce10-e652-4d61-974a-f3509e4d478e.png)
 
 ## 2. Độ sai lệch của từng pixel 
-   ![image](https://user-images.githubusercontent.com/53068735/126130671-9a32ab2f-9f2e-4641-873d-827402a4cfdf.png)  ![image](https://user-images.githubusercontent.com/53068735/126130735-0abc3f91-dabd-42da-a1cc-65aae62af39c.png)
+![image](https://user-images.githubusercontent.com/53068735/126756848-ff92c1ca-78fd-4a53-885b-2122bc0a2afb.png)  ![image](https://user-images.githubusercontent.com/53068735/126756877-aa3be873-90da-484a-b0ad-796265398c2a.png)
 
 # VII. KẾT QUẢ LAYER MAX_POOLING_1: Kích thước ảnh giảm xuống 28 x 28
 ## 1. Hiển thị kết quả layer max_pooling_1 sử dụng rtl, python scripts và thư viện của keras
@@ -62,14 +60,14 @@
 ![image](https://user-images.githubusercontent.com/53068735/126135240-445453ab-fb20-4299-8538-e93526feec70.png)
 
 ## 2. Độ sai lệch của từng pixel 
-   ![image](https://user-images.githubusercontent.com/53068735/126135679-ae412e41-d48f-4739-b4bb-3b1569e01dbf.png)  ![image](https://user-images.githubusercontent.com/53068735/126135832-216bcf3a-e998-4682-b598-f0409064a128.png)
+![image](https://user-images.githubusercontent.com/53068735/126757090-0704110c-57b4-4e21-be61-d0751493a8f3.png)  ![image](https://user-images.githubusercontent.com/53068735/126757109-1841d6d8-be01-4a08-943c-b6ba8e33c39d.png)
 
 # VIII. KẾT QUẢ LAYER FLATTEN
 ## 1. Kết quả 16 pixel đầu tiên sau khi flatten sử dụng rtl, python scripts và thư viện của keras
 ![image](https://user-images.githubusercontent.com/53068735/126140769-9a976525-f399-454b-b329-212cbb5593b3.png)  ![image](https://user-images.githubusercontent.com/53068735/126141684-875b4dad-95f4-4e7e-9f9e-eb6a637ce658.png)
 
 ## 2. Độ sai lệch của từng pixel 
-![image](https://user-images.githubusercontent.com/53068735/126140889-6606f076-2112-4bfa-a7a4-f25de51a3450.png)  ![image](https://user-images.githubusercontent.com/53068735/126140943-6031d0a9-4915-414c-81f2-62c973f3af6f.png)
+![image](https://user-images.githubusercontent.com/53068735/126757261-340b7f4d-9394-4df9-adbc-0d07f5e99729.png)  ![image](https://user-images.githubusercontent.com/53068735/126757281-bd7fb7f3-7ffc-455f-8465-33aca5df9e8f.png)
 
 # IX. KẾT QUẢ LAYER FC0_DENSE 32
 ## 1. Kết quả sử dụng rtl, python scripts và thư viện của keras
