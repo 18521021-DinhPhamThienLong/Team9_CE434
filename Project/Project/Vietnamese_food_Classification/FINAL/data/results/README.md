@@ -158,3 +158,9 @@
 ## 2. Độ sai lệch từng pixel
 ![image](https://user-images.githubusercontent.com/53068735/126751364-28bac6fc-2ae5-42b8-bcae-30f89c2cda26.png)  ![image](https://user-images.githubusercontent.com/53068735/126751385-553902d2-a125-4ce2-8c6e-a8742fbb408a.png)
 
+# IX. KẾT QUẢ LAYER FC0_DENSE 32
+## 1. Kết quả sử dụng rtl, python scripts và thư viện của keras
+![image](https://user-images.githubusercontent.com/53068735/126752092-eebbb1fb-5d96-4aa5-be12-619f24be8803.png)  ![image](https://user-images.githubusercontent.com/53068735/126752122-7fab875b-7ae8-4825-b7f3-7b9441d45991.png)
+
+## 2. Độ sai lệch từng pixel
+![image](https://user-images.githubusercontent.com/53068735/126752155-59e5b520-e903-4a84-9303-bc3ac3a7696a.png)  ![image](https://user-images.githubusercontent.com/53068735/126752182-8abb3cff-aa33-4050-a6eb-94d32f72549b.png)
