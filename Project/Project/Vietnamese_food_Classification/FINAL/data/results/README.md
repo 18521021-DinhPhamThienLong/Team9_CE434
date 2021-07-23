@@ -60,7 +60,7 @@
 ![image](https://user-images.githubusercontent.com/53068735/126135240-445453ab-fb20-4299-8538-e93526feec70.png)
 
 ## 2. Độ sai lệch của từng pixel 
-![image](https://user-images.githubusercontent.com/53068735/126757513-676edd0a-b2db-472e-99c9-6730935e65d5.png)  ![image](https://user-images.githubusercontent.com/53068735/126757109-1841d6d8-be01-4a08-943c-b6ba8e33c39d.png)
+![image](https://user-images.githubusercontent.com/53068735/126757513-676edd0a-b2db-472e-99c9-6730935e65d5.png)  ![image](https://user-images.githubusercontent.com/53068735/126757620-3d1e49fc-0b5a-402d-999d-1c5fc328df22.png)
 
 # VIII. KẾT QUẢ LAYER FLATTEN
 ## 1. Kết quả 16 pixel đầu tiên sau khi flatten sử dụng rtl, python scripts và thư viện của keras
